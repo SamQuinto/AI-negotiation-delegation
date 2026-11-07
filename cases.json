@@ -5,7 +5,7 @@
     "title": "Photographs for a product launch",
     "service": "event photography",
     "buyer": "You are organizing a product launch for a small business. The team has put a lot into this day, and you want photographs that capture it well. You have found a photographer whose work you love and would be pleased to book them. The service is agreed, but their fee is still unresolved. Your job is to find a price you can both say yes to.",
-    "supplier": "You are a professional photographer discussing a one-day product-launch booking with the event organiser.",
+    "supplier": "You are a professional photographer discussing a one-day product-launch booking with the event organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The date, a full day of photography, 40 edited photographs and delivery within seven days are already agreed. Only the fee is open for negotiation."
   },
   {
@@ -14,7 +14,7 @@
     "title": "Sound for a community event",
     "service": "sound equipment and a technician",
     "buyer": "You are organizing a community event in a local hall. Volunteers have been working hard to bring everyone together, and clear sound will make a real difference on the day. A local supplier can provide the microphones, speakers and technician you need. You would like to work with them, but you still disagree about the fee. Try to settle the price while keeping the conversation constructive.",
-    "supplier": "You run a sound-equipment business. The community-event organiser wants to book your equipment and technician.",
+    "supplier": "You run a sound-equipment business. The community-event organiser wants to book your equipment and technician. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The date, equipment, technician hours and setup arrangements are already agreed. Only the fee is open for negotiation."
   },
   {
@@ -23,7 +23,7 @@
     "title": "Recording a university conference",
     "service": "conference recording",
     "buyer": "You are organizing a one-day university conference. Colleagues who cannot attend are counting on recordings of the talks. You have found a production company that can cover the event and deliver the recordings as agreed. You would like to confirm the booking, but there is still a gap over the fee. Negotiate a price that works for your side.",
-    "supplier": "You run a production company discussing a one-day conference-recording booking with the organiser.",
+    "supplier": "You run a production company discussing a one-day conference-recording booking with the organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "One camera operator, recording of six talks and delivery of the edited recordings within two weeks are already agreed. Only the fee is open for negotiation."
   },
   {
@@ -32,7 +32,7 @@
     "title": "Displays for a local exhibition",
     "service": "exhibition display equipment",
     "buyer": "You are organizing a weekend exhibition for local makers. You want their work to look its best, and you have selected the display boards and tables with a hire supplier. Delivery, collection and the equipment are settled. You would be happy to make the booking, but the hire fee is still in dispute. Work towards an agreement on the price.",
-    "supplier": "You run an equipment-hire business negotiating the fee for a weekend exhibition booking.",
+    "supplier": "You run an equipment-hire business negotiating the fee for a weekend exhibition booking. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The display boards, tables, delivery, collection and hire dates are already agreed. Only the fee is open for negotiation."
   },
   {
@@ -41,7 +41,7 @@
     "title": "A video of an awards ceremony",
     "service": "awards-ceremony filming",
     "buyer": "You are organizing an awards ceremony for a professional association. The winners and their colleagues would love a short film they can look back on. A videographer you like is available, and you have agreed on the filming and highlights video. Before you can confirm, you need to resolve the fee. See whether you can close that gap.",
-    "supplier": "You are a videographer negotiating a booking to film an awards ceremony and produce a highlights video.",
+    "supplier": "You are a videographer negotiating a booking to film an awards ceremony and produce a highlights video. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, filming hours, a five-minute highlights video and delivery within two weeks are already agreed. Only the fee is open for negotiation."
   },
   {
@@ -50,7 +50,7 @@
     "title": "Production for an awards night",
     "service": "sound and lighting for an awards night",
     "buyer": "You are organizing an awards night for a university department. You want the evening to run smoothly and feel special for the people being recognized. A production company can provide the sound, lighting and technician. You would like to book them, but the fee, setup arrangement and payment terms are still open. Think about the whole package: a useful trade on one issue may help you get more on another.",
-    "supplier": "You run a production company negotiating sound, lighting and technician services for a university awards night.",
+    "supplier": "You run a production company negotiating sound, lighting and technician services for a university awards night. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
   },
   {
@@ -59,7 +59,7 @@
     "title": "Lighting for an arts festival",
     "service": "lighting for an arts festival",
     "buyer": "You are organizing an evening performance at a local arts festival. The performers are ready, and you have chosen a lighting supplier whose work suits the event. You would like to confirm the booking, but three things remain to be agreed: the fee, the setup arrangement and payment terms. You each have your own priorities, so explore where a trade might work.",
-    "supplier": "You run a lighting business negotiating a booking for an evening arts-festival performance.",
+    "supplier": "You run a lighting business negotiating a booking for an evening arts-festival performance. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, lighting equipment and operator hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
   },
   {
@@ -68,7 +68,7 @@
     "title": "Audio for a business expo",
     "service": "audio equipment for a business expo",
     "buyer": "You are organizing a one-day business expo with a small presentation stage. Good audio will help the speakers connect with visitors. A supplier can provide the equipment and technician, and you would like them on board. The fee, setup arrangement and payment terms are still unresolved. Look for a complete booking that protects what matters most to you.",
-    "supplier": "You run an audio business negotiating equipment and technician services for a one-day business expo.",
+    "supplier": "You run an audio business negotiating equipment and technician services for a one-day business expo. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
   },
   {
@@ -77,7 +77,7 @@
     "title": "Recording a theatre performance",
     "service": "theatre recording",
     "buyer": "You manage a small theatre company. The team has worked hard on this performance, and you want a recording to preserve it in your archive. A production crew you like is available. Before you confirm, you need to agree on the fee, access for setup and payment terms. Consider the package as a whole and ask what could make the booking work for both sides.",
-    "supplier": "You run a production team negotiating a theatre-performance recording booking with the company manager.",
+    "supplier": "You run a production team negotiating a theatre-performance recording booking with the company manager. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The performance date, camera equipment, crew hours and delivery of one edited recording are fixed. Negotiate only the fee, setup arrangement and payment date."
   },
   {
@@ -86,17 +86,17 @@
     "title": "Staging a charity evening",
     "service": "staging and sound for a charity evening",
     "buyer": "You are organizing a charity evening in a community venue. Volunteers have done a lot to bring it together, and a reliable stage and sound setup will help the event run smoothly. You have found a supplier you would love to book. The core service is settled, but the fee, setup arrangement and payment terms are still in dispute. Explore a package you can both accept.",
-    "supplier": "You run an event-staging business negotiating a charity-evening booking with its organiser.",
+    "supplier": "You run an event-staging business negotiating a charity-evening booking with its organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, stage size, equipment and technician hours are fixed. Negotiate only the fee, setup arrangement and payment date."
   },
   {
     "id": "fundraiser-practice",
-    "kind": "distributive",
+    "kind": "integrative",
     "title": "Practice: a charity fundraiser",
     "service": "sound equipment for a charity fundraiser",
-    "buyer": "You are organizing a charity fundraiser. A sound supplier has said they can provide the microphones, speakers and technician you need for the evening. You would love to have them on board so you can focus on bringing the event together. However, there is still a disagreement over their fee. The service itself is settled. Your task is to negotiate the price.",
-    "supplier": "You run a sound business discussing a charity-fundraiser booking with its organiser.",
-    "fixed": "The date, equipment and technician hours are already agreed. Only the fee is open for negotiation."
+    "buyer": "You are organizing a charity fundraiser. A local sound supplier can bring the microphones, speakers and technician you need. You would love to have them on board, but three things remain to be agreed: the fee, when they can set up, and when you pay. You care about some of these more than others. Use your points to explore a package you can both accept.",
+    "supplier": "You run a sound business discussing a charity-fundraiser booking with its organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
+    "fixed": "The event date, equipment and technician hours are fixed. Negotiate the fee, setup arrangement and payment terms together. A good trade on one issue can help you protect another."
   },
   {
     "id": "creative-event",
@@ -104,7 +104,107 @@
     "title": "A flexible event partnership",
     "service": "event production",
     "buyer": "You are organizing an event and have found a production supplier you would like to work with. The fee, setup and payment terms are still open. You also control a few resources that might help make a partnership work. Start by understanding what matters to each side, then see whether a concrete additional arrangement could create something useful.",
-    "supplier": "You supply event production and are negotiating a booking with the organiser. Useful additional arrangements may be possible.",
+    "supplier": "You supply event production and are negotiating a booking with the organiser. Useful additional arrangements may be possible. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
     "fixed": "The event date, core equipment and technician hours are fixed. New terms must be recognised by the task and included in a complete offer before they affect points."
+  },
+  {
+    "id": "touring-bike",
+    "kind": "distributive",
+    "title": "A touring bike for a new adventure",
+    "service": "a lightly used touring bike",
+    "buyer": "You have been planning a long cycling trip and have found a touring bike that feels right. You have checked its condition and agreed what comes with it. The seller is ready to let it go, but you still disagree about the price. You would love the bike, while keeping enough money for the trip.",
+    "supplier": "You are selling a touring bike you have looked after carefully. A buyer has inspected it and is keen to take it on a long trip. You would be happy to sell, but want a price that reflects its value.",
+    "fixed": "The bicycle, accessories, condition and collection date are agreed. Only the sale price is negotiable.",
+    "priceLabel": "Price",
+    "sellerLabel": "Seller"
+  },
+  {
+    "id": "camera-kit",
+    "kind": "distributive",
+    "title": "A camera kit for a new project",
+    "service": "a used camera and lens kit",
+    "buyer": "You are starting a documentary project and have found a camera and lens kit that meets your needs. You have tested the equipment and agreed the collection arrangements. You want to buy it, but there is still a gap over the price.",
+    "supplier": "You are selling a camera and lens kit after upgrading your equipment. The buyer has tested it and everything else is agreed. You want the sale to reflect the care you have taken with it.",
+    "fixed": "The camera, lenses, condition and collection arrangements are fixed. Negotiate only the sale price.",
+    "priceLabel": "Price",
+    "sellerLabel": "Seller"
+  },
+  {
+    "id": "studio-desk",
+    "kind": "distributive",
+    "title": "A desk for a shared studio",
+    "service": "a solid-wood studio desk",
+    "buyer": "Your shared studio needs a large, sturdy desk. You have found a solid-wood one that fits the space, and the seller has agreed how you can collect it. You like it enough to buy, but need to settle the price first.",
+    "supplier": "You are selling a solid-wood desk as you reorganize your workspace. The buyer has seen it and agreed collection details. You would like a fair return rather than rushing to accept the first price.",
+    "fixed": "The desk, condition, collection and date are fixed. Only the sale price is open.",
+    "priceLabel": "Price",
+    "sellerLabel": "Seller"
+  },
+  {
+    "id": "mobile-coffee-cart",
+    "kind": "distributive",
+    "title": "A cart for a small coffee business",
+    "service": "a used mobile coffee cart",
+    "buyer": "You are preparing to open a small coffee business. A used coffee cart would help you get started, and you have checked that it meets your needs. The equipment and handover are settled. Work with the seller to resolve the purchase price.",
+    "supplier": "You are selling a mobile coffee cart after changing your business. A prospective owner has inspected it and agreed the handover. You want to make the sale, while protecting the value of a useful piece of equipment.",
+    "fixed": "The cart, included equipment, condition and handover are fixed. Negotiate only the sale price.",
+    "priceLabel": "Price",
+    "sellerLabel": "Seller"
+  },
+  {
+    "id": "design-project",
+    "kind": "distributive",
+    "title": "A visual identity for a bookshop",
+    "service": "a bookshop design package",
+    "buyer": "You are reopening a neighborhood bookshop and want a visual identity that feels welcoming. A designer you like has agreed the deliverables and schedule. You are keen to work together, but the project fee still needs to be settled.",
+    "supplier": "You are a designer discussing a visual identity for a neighborhood bookshop. The scope and schedule are agreed. You would enjoy the project, while ensuring the fee reflects the time and care it will take.",
+    "fixed": "The logo, color palette, two revisions and delivery date are fixed. Only the project fee is negotiable.",
+    "priceLabel": "Fee",
+    "sellerLabel": "Designer"
+  },
+  {
+    "id": "studio-workstations",
+    "kind": "integrative",
+    "title": "Workstations for a shared studio",
+    "service": "studio workstation installation",
+    "buyer": "You help run a shared creative studio. A supplier can install the workstations you need before new members arrive. The equipment is agreed, but you still need to settle the price, access for setup and payment terms. A reliable setup matters to you, and you may have flexibility elsewhere.",
+    "supplier": "You supply and install studio workstations. The studio has confirmed the equipment it wants. You would like the contract, while managing your installation schedule and cash flow.",
+    "fixed": "The equipment, service date and installation scope are fixed. Negotiate the fee, setup access and payment terms."
+  },
+  {
+    "id": "garden-lighting",
+    "kind": "integrative",
+    "title": "Lighting for a community garden",
+    "service": "community garden lighting installation",
+    "buyer": "You help manage a community garden that is opening for evening visits. A contractor can install the lighting you have selected. You want the work to go smoothly, but the fee, setup access and payment terms remain open. Explore what matters to each side before settling on a package.",
+    "supplier": "You are a lighting contractor discussing an installation for a community garden. The equipment and scope are settled. You want a useful contract that also fits your schedule and payment needs.",
+    "fixed": "The lights, installation scope and service date are agreed. Negotiate only the fee, setup access and payment terms."
+  },
+  {
+    "id": "podcast-studio",
+    "kind": "integrative",
+    "title": "A studio for a podcast launch",
+    "service": "podcast studio recording",
+    "buyer": "Your small team is launching a podcast. You have found a recording studio with the equipment and staff you need. The session is agreed, but the fee, setup access and payment terms are not. Think about the package as a whole and decide what you can trade.",
+    "supplier": "You run a recording studio. A team wants to record its first podcast with you, and the equipment and session are agreed. You would like the booking to make good use of your staff and space.",
+    "fixed": "The recording date, equipment, operator hours and final audio delivery are fixed. Negotiate the fee, setup access and payment terms."
+  },
+  {
+    "id": "market-installation",
+    "kind": "integrative",
+    "title": "A stall for a weekend market",
+    "service": "market stall installation",
+    "buyer": "You are opening a stall at a weekend market. An installation team can assemble the display you have chosen. You want to be ready without stretching your resources. The fee, setup access and payment terms still need to be worked out.",
+    "supplier": "You run a small installation business. A market trader has agreed the display and service date. You would welcome the work, while keeping your team’s schedule and payment needs in mind.",
+    "fixed": "The display, installation scope and service date are fixed. Only the fee, setup access and payment terms can change."
+  },
+  {
+    "id": "school-projection",
+    "kind": "integrative",
+    "title": "A projection system for a school show",
+    "service": "school-show projection setup",
+    "buyer": "You are coordinating a school performance. A supplier can provide the projection system and technician the production needs. You are keen to confirm, but the fee, setup arrangement and payment terms are unresolved. Look for trades that help the show while making the booking work.",
+    "supplier": "You supply projection systems and technicians. A school wants to book an agreed system for its show. You would like to help, while ensuring the schedule and payment arrangements work for your business.",
+    "fixed": "The system, show date and technician hours are fixed. Negotiate only the fee, setup arrangement and payment terms."
   }
 ]

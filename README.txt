@@ -17,10 +17,12 @@ Distributive buyer points: 100 - 8 * price.
 Distributive supplier points: 20 + 8 * price.
 Both sides have a 30-point outside option. The mutually acceptable fee range is therefore 925 to 1675. Negative agreements are legal: 2400 gives the buyer -28 points. The interface requires explicit confirmation before a participant sends or accepts a below-BATNA deal.
 
+Legacy schema keys human/opponent in parameters.json denote the canonical BUYER/SELLER payoff tables, respectively. The engine maps these to the participant and counterpart according to playerRole. This also maps outside options and creative extras. Do not switch the keys when a participant is the seller.
+
 For integrative cases, add each side's setup and payment adjustments to its base-plus-fee score. Form B swaps which issue uses each adjustment vector. The admin console derives a separate ZOPA for each issue package. The agents receive only their own private point sheet.
 
 Defaults and design
-The default main study randomly assigns each player to distributive or integrative for five distinct cases. Mixed-within-player is a separate admin schedule, with a randomized 3/2 split. Opening side is randomized independently in main rounds. Practice always prompts the player to open.
+The default main study randomly assigns each player to distributive or integrative for five distinct cases. Mixed-within-player is a separate admin schedule, with a randomized 3/2 split. Main rounds use a shuffled balance of two buyer and two seller roles plus a randomized fifth role. Role order and opening side use seed components separate from task assignment. Practice is integrative, always starts the player as buyer, prompts their first offer, then requires trying private AI advice once. After practice, assistance is optional according to the selected mode.
 Practice preparation is 60 seconds and chat is 210 seconds. Main preparation is 120 seconds and chat is 600 seconds. AI-led modes skip participant preparation. The final decision window is at most 60 seconds after the original chat deadline; refreshing cannot restart it. The default action cap is eight.
 
 Keep supplier point tables in a private repository for studies where participants should not see them. No API keys or participant data belong in this configuration repository. The app's own raw download endpoints require researcher access.
@@ -32,3 +34,10 @@ Review participant information and the approved protocol if you change timing, d
 References
 Curhan and Vaccaro materials: https://arxiv.org/html/2503.06416v3
 Empirica admin concepts: https://docs.empirica.ly/guides/the-admin-panel
+
+GitHub repository: https://github.com/SamQuinto/AI-negotiation-delegation
+Raw parameters: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/parameters.json
+Raw cases: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
+
+Capacity and recovery
+The protected dashboard uses a bounded, indexed cohort query and never loads synthetic load-test sessions into routine results. Its row-read counter reports only that results query, not account-wide usage. Auto-refresh pauses in background tabs. An interrupted action retains a two-minute lease; the participant page polls saved state, preserves an unsent draft, and recovers expired leases. It never automatically repeats a paid model request.

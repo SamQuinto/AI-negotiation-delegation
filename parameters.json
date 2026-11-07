@@ -1,11 +1,76 @@
 {
   "schemaVersion": 1,
-  "version": "arena-rules-2026-11-07-v6",
+  "version": "arena-rules-2026-11-07-v7",
   "currency": "USD",
-  "pricing": {"minimum": 800, "maximum": 2400, "unit": 100, "step": 0.01, "referenceFees": [800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400]},
-  "outsideOptions": {"human": 30, "opponent": 30},
-  "distributive": {"humanBase": 100, "humanSlope": -8, "opponentBase": 20, "opponentSlope": 8},
-  "integrative": {"humanBase": 80, "humanSlope": -6, "opponentBase": 20, "opponentSlope": 6, "humanSchedule": [0, -5, 18], "humanPayment": [0, -4, 12], "opponentSchedule": [0, 25, -12], "opponentPayment": [0, 20, -5]},
-  "timing": {"practicePreparationSeconds": 60, "preparationSeconds": 120, "practiceNegotiationSeconds": 210, "negotiationSeconds": 600, "finalDecisionSeconds": 60, "maxTurns": 8},
-  "creativeExtras": {"portfolio": {"human": -3, "opponent": 18}, "pooled": {"human": 16, "opponent": -4}, "offpeak": {"human": 10, "opponent": 8}}
+  "pricing": {
+    "minimum": 800,
+    "maximum": 2400,
+    "unit": 100,
+    "step": 0.01,
+    "referenceFees": [
+      800,
+      1200,
+      1600,
+      2000,
+      2400
+    ]
+  },
+  "outsideOptions": {
+    "human": 30,
+    "opponent": 30
+  },
+  "distributive": {
+    "humanBase": 100,
+    "humanSlope": -8,
+    "opponentBase": 20,
+    "opponentSlope": 8
+  },
+  "integrative": {
+    "humanBase": 80,
+    "humanSlope": -6,
+    "opponentBase": 20,
+    "opponentSlope": 6,
+    "humanSchedule": [
+      0,
+      -5,
+      18
+    ],
+    "humanPayment": [
+      0,
+      -4,
+      12
+    ],
+    "opponentSchedule": [
+      0,
+      25,
+      -12
+    ],
+    "opponentPayment": [
+      0,
+      20,
+      -5
+    ]
+  },
+  "timing": {
+    "practicePreparationSeconds": 60,
+    "preparationSeconds": 120,
+    "practiceNegotiationSeconds": 210,
+    "negotiationSeconds": 600,
+    "finalDecisionSeconds": 60,
+    "maxTurns": 8
+  },
+  "creativeExtras": {
+    "portfolio": {
+      "human": -3,
+      "opponent": 18
+    },
+    "pooled": {
+      "human": 16,
+      "opponent": -4
+    },
+    "offpeak": {
+      "human": 10,
+      "opponent": 8
+    }
+  }
 }
