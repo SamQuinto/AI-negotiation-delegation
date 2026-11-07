@@ -1,0 +1,110 @@
+[
+  {
+    "id": "launch-photos",
+    "kind": "distributive",
+    "title": "Photographs for a product launch",
+    "service": "event photography",
+    "buyer": "You are organizing a product launch for a small business. The team has put a lot into this day, and you want photographs that capture it well. You have found a photographer whose work you love and would be pleased to book them. The service is agreed, but their fee is still unresolved. Your job is to find a price you can both say yes to.",
+    "supplier": "You are a professional photographer discussing a one-day product-launch booking with the event organiser.",
+    "fixed": "The date, a full day of photography, 40 edited photographs and delivery within seven days are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "community-sound",
+    "kind": "distributive",
+    "title": "Sound for a community event",
+    "service": "sound equipment and a technician",
+    "buyer": "You are organizing a community event in a local hall. Volunteers have been working hard to bring everyone together, and clear sound will make a real difference on the day. A local supplier can provide the microphones, speakers and technician you need. You would like to work with them, but you still disagree about the fee. Try to settle the price while keeping the conversation constructive.",
+    "supplier": "You run a sound-equipment business. The community-event organiser wants to book your equipment and technician.",
+    "fixed": "The date, equipment, technician hours and setup arrangements are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "conference-recording",
+    "kind": "distributive",
+    "title": "Recording a university conference",
+    "service": "conference recording",
+    "buyer": "You are organizing a one-day university conference. Colleagues who cannot attend are counting on recordings of the talks. You have found a production company that can cover the event and deliver the recordings as agreed. You would like to confirm the booking, but there is still a gap over the fee. Negotiate a price that works for your side.",
+    "supplier": "You run a production company discussing a one-day conference-recording booking with the organiser.",
+    "fixed": "One camera operator, recording of six talks and delivery of the edited recordings within two weeks are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "exhibition-displays",
+    "kind": "distributive",
+    "title": "Displays for a local exhibition",
+    "service": "exhibition display equipment",
+    "buyer": "You are organizing a weekend exhibition for local makers. You want their work to look its best, and you have selected the display boards and tables with a hire supplier. Delivery, collection and the equipment are settled. You would be happy to make the booking, but the hire fee is still in dispute. Work towards an agreement on the price.",
+    "supplier": "You run an equipment-hire business negotiating the fee for a weekend exhibition booking.",
+    "fixed": "The display boards, tables, delivery, collection and hire dates are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "awards-video",
+    "kind": "distributive",
+    "title": "A video of an awards ceremony",
+    "service": "awards-ceremony filming",
+    "buyer": "You are organizing an awards ceremony for a professional association. The winners and their colleagues would love a short film they can look back on. A videographer you like is available, and you have agreed on the filming and highlights video. Before you can confirm, you need to resolve the fee. See whether you can close that gap.",
+    "supplier": "You are a videographer negotiating a booking to film an awards ceremony and produce a highlights video.",
+    "fixed": "The event date, filming hours, a five-minute highlights video and delivery within two weeks are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "awards-production",
+    "kind": "integrative",
+    "title": "Production for an awards night",
+    "service": "sound and lighting for an awards night",
+    "buyer": "You are organizing an awards night for a university department. You want the evening to run smoothly and feel special for the people being recognized. A production company can provide the sound, lighting and technician. You would like to book them, but the fee, setup arrangement and payment terms are still open. Think about the whole package: a useful trade on one issue may help you get more on another.",
+    "supplier": "You run a production company negotiating sound, lighting and technician services for a university awards night.",
+    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+  },
+  {
+    "id": "festival-lighting",
+    "kind": "integrative",
+    "title": "Lighting for an arts festival",
+    "service": "lighting for an arts festival",
+    "buyer": "You are organizing an evening performance at a local arts festival. The performers are ready, and you have chosen a lighting supplier whose work suits the event. You would like to confirm the booking, but three things remain to be agreed: the fee, the setup arrangement and payment terms. You each have your own priorities, so explore where a trade might work.",
+    "supplier": "You run a lighting business negotiating a booking for an evening arts-festival performance.",
+    "fixed": "The event date, lighting equipment and operator hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+  },
+  {
+    "id": "expo-audio",
+    "kind": "integrative",
+    "title": "Audio for a business expo",
+    "service": "audio equipment for a business expo",
+    "buyer": "You are organizing a one-day business expo with a small presentation stage. Good audio will help the speakers connect with visitors. A supplier can provide the equipment and technician, and you would like them on board. The fee, setup arrangement and payment terms are still unresolved. Look for a complete booking that protects what matters most to you.",
+    "supplier": "You run an audio business negotiating equipment and technician services for a one-day business expo.",
+    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+  },
+  {
+    "id": "theatre-recording",
+    "kind": "integrative",
+    "title": "Recording a theatre performance",
+    "service": "theatre recording",
+    "buyer": "You manage a small theatre company. The team has worked hard on this performance, and you want a recording to preserve it in your archive. A production crew you like is available. Before you confirm, you need to agree on the fee, access for setup and payment terms. Consider the package as a whole and ask what could make the booking work for both sides.",
+    "supplier": "You run a production team negotiating a theatre-performance recording booking with the company manager.",
+    "fixed": "The performance date, camera equipment, crew hours and delivery of one edited recording are fixed. Negotiate only the fee, setup arrangement and payment date."
+  },
+  {
+    "id": "fundraiser-staging",
+    "kind": "integrative",
+    "title": "Staging a charity evening",
+    "service": "staging and sound for a charity evening",
+    "buyer": "You are organizing a charity evening in a community venue. Volunteers have done a lot to bring it together, and a reliable stage and sound setup will help the event run smoothly. You have found a supplier you would love to book. The core service is settled, but the fee, setup arrangement and payment terms are still in dispute. Explore a package you can both accept.",
+    "supplier": "You run an event-staging business negotiating a charity-evening booking with its organiser.",
+    "fixed": "The event date, stage size, equipment and technician hours are fixed. Negotiate only the fee, setup arrangement and payment date."
+  },
+  {
+    "id": "fundraiser-practice",
+    "kind": "distributive",
+    "title": "Practice: a charity fundraiser",
+    "service": "sound equipment for a charity fundraiser",
+    "buyer": "You are organizing a charity fundraiser. A sound supplier has said they can provide the microphones, speakers and technician you need for the evening. You would love to have them on board so you can focus on bringing the event together. However, there is still a disagreement over their fee. The service itself is settled. Your task is to negotiate the price.",
+    "supplier": "You run a sound business discussing a charity-fundraiser booking with its organiser.",
+    "fixed": "The date, equipment and technician hours are already agreed. Only the fee is open for negotiation."
+  },
+  {
+    "id": "creative-event",
+    "kind": "creative",
+    "title": "A flexible event partnership",
+    "service": "event production",
+    "buyer": "You are organizing an event and have found a production supplier you would like to work with. The fee, setup and payment terms are still open. You also control a few resources that might help make a partnership work. Start by understanding what matters to each side, then see whether a concrete additional arrangement could create something useful.",
+    "supplier": "You supply event production and are negotiating a booking with the organiser. Useful additional arrangements may be possible.",
+    "fixed": "The event date, core equipment and technician hours are fixed. New terms must be recognised by the task and included in a complete offer before they affect points."
+  }
+]
