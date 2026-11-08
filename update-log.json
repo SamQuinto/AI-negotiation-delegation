@@ -2,6 +2,63 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v28.2",
+      "status": "Implemented",
+      "publishedAtUtc": null,
+      "updatedAtUtc": "2026-11-08T10:57:26+00:00",
+      "retrospective": false,
+      "title": "A tutorial that understands your offers",
+      "summary": "Typos, ordinary phrasing and pasted offers can make progress without repeated notices.",
+      "changes": {
+        "Chat offers": [
+          "Recognizes the reported would-like-to-pay and Okay-so offers, common setup/payment misspellings and multiline pasted terms. Numbers are parsed exactly and points stay deterministic.",
+          "Ambiguous terms stay uncommitted. Review the terms restores the exact sent text to the editable composer, with no guessed package.",
+          "Use this example inserts a valid opening for editing. Short questions such as like what count as conversation."
+        ],
+        "Tutorial progress": [
+          "Each demonstrated chat, conversation and structured-offer action is credited once. Extra offers do not trigger a sequencing error.",
+          "Affected old tutorials recover lesson credit from saved attempts without rewriting historical messages, offers or scores.",
+          "If that affected attempt already timed out, one unscored recovery attempt resumes its remaining steps. New tutorials keep the existing time cap."
+        ],
+        "Conversation clarity": [
+          "System notices use pink boxes and italic body text, distinct from either party. The review action shares the existing notice rather than duplicating it.",
+          "The warm-up supplier answers questions about its own priorities and varies its replies. Repeated identical offers still earn no extra concession.",
+          "The required-helper completion notice appears once."
+        ]
+      },
+      "validation": [
+        "Exact reported messages plus typo, multiline, ambiguous and quoted/conditional regression cases.",
+        "Browser replay covered draft restoration, a single pink notice, typo offer scoring, a short reply, the offer form, one live helper request and entry to the first scored negotiation.",
+        "A separate expired legacy fixture recovered its first two actions and resumed at the offer box. Final checks and host receipts are stored separately."
+      ],
+      "limits": [
+        "The recognizer tolerates a bounded issue vocabulary; uncertain or conflicting terms are left editable rather than guessed.",
+        "The warm-up uses scripted policy before the required helper. This check is not an expert-quality certification of all advice."
+      ]
+    },
+    {
+      "release": "v28.1",
+      "status": "Implemented",
+      "publishedAtUtc": null,
+      "updatedAtUtc": "2026-11-08T10:36:07+00:00",
+      "retrospective": false,
+      "title": "A clearer profile and visible PIN entry",
+      "summary": "A simpler gender menu and an easy-to-see PIN field.",
+      "changes": {
+        "Your profile": [
+          "Gender choices are Man, Woman and Other identity. Previously saved identities remain intact.",
+          "New PINs are visible while being created, with a clear Show PIN / Hide PIN button.",
+          "The PIN field has a white background, blue border, six-digit hint, larger numbers and an obvious focus state."
+        ]
+      },
+      "validation": [
+        "TypeScript/build and focused browser checks recorded in the v28.1 release receipt."
+      ],
+      "limits": [
+        "This update does not change stored PIN hashes or negotiation behavior."
+      ]
+    },
+    {
       "release": "v28",
       "status": "Published",
       "publishedAtUtc": "2026-11-08T10:14:42.380485+00:00",
