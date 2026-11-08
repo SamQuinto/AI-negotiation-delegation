@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "arena-rules-2026-11-08-v8",
+  "version": "arena-rules-2026-11-08-v9",
   "currency": "USD",
   "pricing": {
     "minimum": 800,
@@ -52,12 +52,12 @@
     ]
   },
   "timing": {
-    "practicePreparationSeconds": 60,
+    "practicePreparationSeconds": 120,
     "preparationSeconds": 120,
-    "practiceNegotiationSeconds": 210,
+    "practiceNegotiationSeconds": 540,
     "negotiationSeconds": 600,
     "finalDecisionSeconds": 60,
-    "maxTurns": 8
+    "maxTurns": null
   },
   "creativeExtras": {
     "portfolio": {

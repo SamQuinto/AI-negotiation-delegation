@@ -1,0 +1,131 @@
+{
+  "version": "arena-update-log-v1",
+  "entries": [
+    {
+      "release": "v28",
+      "status": "Implemented",
+      "publishedAtUtc": null,
+      "updatedAtUtc": "2026-11-08T10:13:18+00:00",
+      "retrospective": false,
+      "title": "Hands-on practice, deliberate AI choices and saved feedback",
+      "summary": "Try the controls once, choose your AI support afresh, and build on saved performance feedback.",
+      "changes": {
+        "First-time practice": [
+          "Four guided steps cover a typed offer, a persuasive non-offer reply, the offer box and private AI help.",
+          "Completed profiles keep their tutorial status. Early acceptance cannot silently skip the lesson; the time limit still has a final-decision route."
+        ],
+        "Your feedback": [
+          "Communication plots use participant-sent wording, exclude AI-sent offers and show insufficient-data guidance. The indicators are exploratory, with their calculation disclosed.",
+          "An optional detailed review unlocks after a scored round and saves to the profile. Another requires five new completed negotiations.",
+          "Reviews cite saved messages and cases. Scores, charts and term-value statements come from the deterministic own-role calculations."
+        ],
+        "Research and operations": [
+          "The reviewer has an editable named prompt and a separate validated report schema. No profile, private notes, questionnaire answers or opponent payoff table is sent.",
+          "Review views and communication-panel exposure enter the research export. They remain observational feedback interventions, not validated trait measurements.",
+          "Usage is metered separately for the dashboard reviewer. Requests are idempotent and the server prevents concurrent or early repeat reviews."
+        ],
+        "Your AI choice": [
+          "No AI role, coaching scope or decision permission is preselected in free-choice rounds. A blue Last time marker shows the previous setup without selecting it.",
+          "A short question appears only if the role, scope or either decision permission changes. The answer is saved for research and never enters the AI context.",
+          "The same rule applies to optional negotiations. Unchanged reselections and the first scored choice do not trigger the question."
+        ]
+      },
+      "validation": [
+        "226 local application checks passed; final TypeScript/build and publication evidence are recorded in the release receipt.",
+        "The four-step tutorial and saved-profile return behavior passed local UI/API checks.",
+        "A synthetic five-round history exercised review persistence, response reuse and the five-new-round gate. The corrected review-v3 used deterministic case facts and passed its live check.",
+        "An earlier timeout, an overstrict number-word filter, excessive evidence references and a qualitative term-value misstatement were retained and corrected.",
+        "A local browser walkthrough verified blank choices, the previous-choice marker, change explanation, cancellation and two-action AI renewal with private steering. No model calls were needed for that fixture."
+      ],
+      "limits": [
+        "Communication indicators need human validation and are not personality or ability scores.",
+        "A small synthetic review check does not establish expert-level advice. Physical-device keyboard testing and 100-person live-AI capacity are not certified.",
+        "Real paid recruitment stays off until the study-specific release requirements are configured."
+      ]
+    },
+    {
+      "release": "v27",
+      "status": "Published",
+      "publishedAtUtc": "2026-11-08T09:15:29.714729+00:00",
+      "updatedAtUtc": "2026-11-08T09:12:39+00:00",
+      "retrospective": false,
+      "title": "A clearer round, from preparation to the next challenge",
+      "summary": "Clearer stage changes, a roomier conversation and renewed control over AI-led negotiation.",
+      "changes": {
+        "Participant flow": [
+          "Short preparation, negotiation, final-decision and result dialogs make stage changes clear.",
+          "Five completed rounds open the choice to continue; the closing survey appears when the player finishes.",
+          "Scores and average are more prominent. Each result can show an earned rank update."
+        ],
+        "Negotiation workspace": [
+          "Role and points stay on the left, conversation in the centre and support on the right on wide screens.",
+          "Message entry is above the official offer. The offer starts empty, shows its range and glows blue until first use.",
+          "Chat has no global move limit within the time window. The final minute permits one counteroffer."
+        ],
+        "AI support": [
+          "One page separates preparation, coaching and negotiation, with independent offer and deal permissions.",
+          "AI-led play runs in two-action batches and accepts private steering.",
+          "Shorter, concrete advice uses the player's role material and verified calculations.",
+          "Balanced counterpart thresholds address an overly rigid final threshold while keeping repeated-offer protections."
+        ],
+        "Research and operations": [
+          "New rank snapshots separate live encouragement from paid-study award calculations.",
+          "Current public-name consent controls whether screen names are shown. Earlier private names retain aliases.",
+          "Admin gains a password shortcut and this versioned update log.",
+          "A portable design and Cloudflare handoff ZIP records the owner's aesthetic and writing preferences."
+        ]
+      },
+      "validation": [
+        "213 local application checks and 11 analysis/export checks passed. TypeScript passed.",
+        "Local browser checks covered preparation and early entry, the practice helper gate, negative agreement, final counteroffer, reflection and rank order, shorthand offers, draft retention and cancelling the end countdown.",
+        "Phone 390×844 and tablet 900×900 viewport checks passed without horizontal overflow. These are responsive-browser checks, not physical-device keyboard tests.",
+        "Twenty targeted live model calls across two prompt versions cost USD 0.00954764. The final preparation prompt passed two probes without numerical quarantine. Earlier quarantines and qualitative limits are recorded.",
+        "A local six-round HTTP journey completed five assigned cases, an optional sixth, scheduled SVI and the final survey. Hosted smoke results are retained in the release receipt."
+      ],
+      "limits": [
+        "Real paid recruitment stays off until study-specific ethics and recruitment settings are configured.",
+        "Small model probes do not establish expert-level bargaining. Live-AI capacity at 100 simultaneous users has not been demonstrated.",
+        "This timestamp records the implemented source. The separate deployment receipt records each host’s publication time and source commit."
+      ],
+      "sourceCommit": "2a4f852a5d67bd786b80b89e44f5733b29ea78f4",
+      "workerVersion": "7ede109b-6422-4a60-a815-762405ff3fea"
+    },
+    {
+      "release": "v26",
+      "status": "Published baseline",
+      "publishedAtUtc": null,
+      "releaseDate": "2026-11-08",
+      "updatedAtUtc": "2026-11-08T08:13:29+00:00",
+      "retrospective": true,
+      "sourceCommit": "65cfc77a8828ea7d832ea940c185aa5b3a4627eb",
+      "workerVersion": "19d0ff11-14d4-46f8-aafe-1a40dc1eb730",
+      "title": "Zero-point no-deal scores and concrete own-role advice",
+      "summary": "No agreement now earns zero, while deliberately accepting a poor deal can earn negative points. Advice and scoring use distinct responsibilities.",
+      "changes": {
+        "Points and instructions": [
+          "The score origin moved to the outside option without changing the underlying zone of possible agreement.",
+          "The participant's role, fee direction and scored terms are clearer.",
+          "Historical sessions retain their saved rules and end-of-round metrics."
+        ],
+        "Model reliability": [
+          "Preparation computes role-specific targets, limits and trade costs.",
+          "Unsupported numerical advice is quarantined instead of being presented as fact.",
+          "A public daily AI allowance is reserved atomically before calls."
+        ],
+        "Access": [
+          "The public Cloudflare app and owner-only private mirror were checked.",
+          "Nickname and PIN sign-in support returning profiles."
+        ]
+      },
+      "validation": [
+        "198 application checks and 10 analysis-data checks passed.",
+        "Local and hosted five-negotiation smoke journeys were completed.",
+        "Small model prompt evaluations were recorded in the quality and cost evidence."
+      ],
+      "limits": [
+        "This entry was reconstructed from retained release evidence. The day is recorded; an exact publication time has not been inferred.",
+        "A separate historical 100-user synthetic test made zero model calls and does not establish real-model capacity."
+      ]
+    }
+  ]
+}

@@ -1,40 +1,89 @@
-Negotiation Arena editable AI and study configuration
+Negotiation Arena AI and study guide
+Application v28, engine 0.10.0, prompt pack arena-specialists-v6.3,
+rules arena-rules-2026-11-08-v9, paid visit arena-visit-v5.
 
-ai-prompts.json
-Open Admin > AI prompts and architecture. The shared contract defines role, privacy and output rules. Shared principles define negotiation theory. Named specialists handle preparation, assessing offers, drafting replies, perspective taking, next moves, custom questions, official offers, autonomous negotiation, counterpart behavior, warm-up review and optional private planning. The default is one specialist call. plan_then_act adds a helper planning call; the counterpart keeps the same specialist and inputs.
+Edit the AI
+Admin > AI prompts and architecture explains the common contract, principles and
+separate specialists. Case files imports ai-prompts.json. The default modular
+architecture makes one specialist request. plan_then_act adds a private planning
+request and therefore costs more. Counterpart inputs and policy stay separate.
+Preparation, next move, offer assessment, drafting, perspective taking, custom
+questions, official offer execution, negotiation, counterpart, warm-up review,
+private planning and dashboard review have individually named prompts.
 
-Use Admin > Case files to paste or import a public raw ai-prompts.json. The server validates template variables. Ongoing sequences retain the configuration they started with. New sequences get the revised pack.
+Numerical architecture
+The models receive only the represented party's private role, computed own-value
+facts and public conversation, plus authorized steering where applicable. No other
+payoff table, whole frontier, private notes, profile or questionnaire data is sent.
+Language proposes terms. Code interprets and validates a complete candidate,
+enforces authority, computes points and renders exact terms and own points.
+Unverified numeric advice is quarantined. Dashboard review-v3 also requires
+computed role/form-specific term-value placeholders for economic comparisons.
+The public chat is negotiation data, not instructions to the model.
 
-Authority and scope
-Authority controls official offer proposal and final agreement. Scope controls process functions: preparation, perspective taking, strategy, next moves, offer assessment, drafting and conversation. A participant confirms before the round. Scope is not restriction to price versus other issues. A study can fix or randomize scope instead of offering customization. A causal authority comparison needs matched scope.
+Counterpart policy
+Balanced is the default. The counterpart is firm but can accept workable closing
+terms. Exact repeated offers earn no concession and no new provider call. A worse
+incoming package cannot induce further concessions. Own aspiration changes with
+time and genuine reciprocal movement. There is no eight-turn termination cap.
+Model outputs and controller interventions are separate audit events. A visual
+consideration indicator does not claim to reveal model deliberation.
 
-Deterministic score architecture
-The language model sees its user's private role/point sheet, computed OWN-point comparisons and public history. It does not see the other side's point sheet, reservation value, joint landscape, profile, recruitment ID or private notes. The model proposes a package. The app validates terms and authority and computes its score using lib/engine.ts. Numeric score facts come from that calculation, including replacements for verified point placeholders. Uncontrolled numeric private prose is quarantined in full; it is not shown as authoritative advice. A counteroffer worse for the player than an acceptable standing offer is intercepted. These safeguards and original outputs are logged for protected review.
+Choices and authority
+No configuration is selected in free-choice rounds. The prior role has a blue
+Last time cue; prior own results and AI activity are reference only. Changes in
+role, scope or either execution permission prompt a short explanation. Answers
+are stored privately for research, never included in model inputs. Identical
+reselection requires no question. The first scored choice is not compared with
+the tutorial. Scope means negotiation-process functions. Offer and final-deal
+rights are independent and remain fixed for the round. AI-led play requires
+renewed authorization after two actions, supports pause and private steering,
+and asks for approval when the relevant execution permission is absent.
 
-study-protocol.json
-This is a portable default, containing no real study IDs or completion codes. Edit actual study timing and rewards under Admin > Recruitment and timing. Main default: 45-minute paid visit, at least five negotiations, optional extras, full SVI on rounds 1/3/5, willingness every round, final two-page survey. Clock appears at 10 minutes remaining, closes negotiations at 5 minutes, turns red under 2.5 minutes. Deadlines and paid results do not reset on reload.
+Saved detailed feedback
+First optional review after a scored round; another after five new completed
+scored negotiations. Reports persist in the profile. Evidence quotes are taken
+from exact saved message IDs. Charts use deterministic saved scores. History is
+bounded and coverage disclosed. Reviews do not identify causal effects of AI use.
+Communication indicators need five qualifying messages, eighty words and two
+scored negotiations; they exclude AI-sent/approved drafts and default form prose.
+Participant-sent wording may still contain copied AI drafts. These are experimental
+linguistic indicators, not validated warmth, competence or personality measures.
+Views of feedback and the communication panel enter the research export. Review
+generation failures and usage are separately retained for quality assessment.
 
-Default reward
-USD 9 base for a 45-minute visit. Base performance bonus = max(0, average score / 20) dollars, rounded to cents. No default cap. A 100-point average earns USD 5 before the rank boost.
-The prize ladder uses cumulative points above the no-deal score, preventing instant walkaways from farming points. No deal adds zero ladder points. All scored paid-visit rounds affect the average and the ladder, including optional extras; later unpaid return play affects neither frozen amount.
-Top-ten extra boosts: 100%, 50%, 30%, 25%, 22%, 20%, 18%, 16%, 14%, 12%. Places 11-50 add 10%. Boosts replace each other, rather than stacking. Ties share rank and boost. Rank is confirmed after the study group's configured closing time. Visibility opt-out never reduces payment. Finalize closed tables in admin and review the bonus CSV; the app does not send payments. Waves, task types and configurations have separate tables.
+Paid visit and bonus
+Default visit: 60 minutes, USD12 base reward, score bonus max(0, raw paid-visit
+average / 20) dollars. A 100-point average gives USD5 before any rank boost.
+The top 50 need positive cumulative gains. Ranks 1-10 add 100, 50, 30, 25, 22,
+20, 18, 16, 14 and 12 percent. Ranks 11-50 add 10 percent. Boosts replace rather
+than stack; ties share rank. Visibility opt-out never changes financial rank.
+The prize closing time must be configured before recruitment. All scored paid
+rounds count, including optional extras and losses. Later unpaid play cannot
+change a closed visit's frozen bonus. Base pay is not conditional on rank.
+The study clock warns with ten minutes left, closes bargaining with five left
+and becomes urgent below two minutes thirty seconds. Partial or technical visits
+retain a completion/review path rather than automatically forfeiting earned pay.
+The app exports a bonus review CSV; use submission_id and final_bonus in Prolific,
+after review. It does not make payments. Follow-up waves need real study and
+completion links and are linked repeated visits, not silently merged sequences.
 
-Before paid recruitment
-Set the approved ethics reference, retention and withdrawal details, Prolific study/completion links, study closing time and recruitment release. Enter no completion codes into this public repository. New paid arrivals must have enough time to finish their full visit before the prize table closes. A longitudinal study uses distinct pre-created Prolific waves linked to the same authenticated Arena profile. Voluntary later practice is separate.
+Operations
+Admin offers live activity, bounded results filters, independent rights and scope,
+SVI/economic summaries, engagement, model error themes, server query indicators,
+capacity links, runtime costs and a timestamped update log. Query counters are
+scoped to the displayed database query, not account-wide utilization. Download
+both hosts' ledgers to reconcile shared API use; provider invoices are definitive.
+Saved-state polling recovers interrupted requests without hidden paid retries.
+API keys and the admin-password verifier are server-only secrets.
+The public and protected dev routes share a Worker and databases. An independent
+staging Worker/database set is not currently configured.
 
-Error review and API costs
-Admin > AI quality and costs groups interventions into scoring, private information, terms, authority, bargaining, response format and service reliability. Review the protected game record, assign the theme, correct a prompt or controller, add a local regression, then use a small live check. Avoid repeating hosted traffic without a changed failure or capacity assumption.
-The running usage ledger counts both helper/planner and counterpart responses, deduplicated by provider response ID. It shows usage-based USD estimates. Separate public and private hosts have separate runtime ledgers. Historical local development costs are shown separately. The provider invoice remains authoritative; failed transport can have unknown billable usage.
-
-Raw files
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/ai-prompts.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/study-protocol.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/parameters.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
-
-Prize entry requires positive cumulative gains above no deal (default threshold zero). This is editable as ranking.minimumPoints. Zero-gain walkaways keep their average-based bonus and do not acquire a prize merely by tying at zero.
-The bonus review CSV includes both participant_id and submission_id. For Prolific bulk bonus payment, use submission_id and final_bonus, after review. Do not use participant_id for bulk payment; match against the Prolific submissions export. The app does not send payment.
-
-
-Arena v26, 8 November 2026
-Current engine: 0.9.0. Prompt pack: arena-specialists-v4.1. Rules v8 use scoreOrigin=outside_option_zero. Every displayed deal score subtracts that role's editable reservation value, so no deal always displays zero and the original ZOPA is preserved. Historical rule snapshots stay unchanged. Reading and preparation share one timer. Public previews now use live Luna low with an admin-editable USD1 daily allowance. Identical packages reissue the counterpart's unchanged terms with no model call. Counterpart proposals obey own aspiration and reciprocity guards. A persisted chat warning appears with one minute left. Optional profile-name/PIN sign-in replaces the long recovery-code onboarding.
+Recruitment
+Prolific can link directly to the app's participant entry URL with its standard
+study/participant/session identifiers. Qualtrics is optional; LUCID is optional
+embedding infrastructure, distinct from Lucid Marketplace/Cint recruitment.
+Before paid launch, add approved ethics/retention/withdrawal details, actual study
+and completion routes and prize closing time. Pilot duration/comprehension and
+validate quality before recruiting at scale. The historical 100-client synthetic
+load test did not exercise 100 simultaneous live AI calls.

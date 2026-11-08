@@ -1,47 +1,85 @@
-Negotiation Arena case files
+Negotiation Arena editable configuration
+Updated 8 November 2026, application v28
 
-parameters.json contains the payoff rules, fee domain, outside options (BATNAs), timing and creative-catalogue point adjustments. cases.json contains the role text and fixed agenda for each original case.
+Public app: https://play.the-negotiation-arena.workers.dev/
+Fresh participant preview: https://play.the-negotiation-arena.workers.dev/try
+Protected administration: https://play.the-negotiation-arena.workers.dev/admin
 
-Edit and apply
-1. Open your protected /admin page and choose Case files.
-2. Open the current raw JSON, or edit these files in a repository you control.
-3. Paste the edited JSON into the editor and select Validate and apply JSON.
-4. For a public GitHub file, paste its raw.githubusercontent.com link and select Load and apply. For a private repository, use the authenticated GitHub Raw view and paste the JSON.
-5. Change the rules version when you make a substantive change. A content hash is also saved automatically, so changing values without changing the label cannot silently merge leaderboard cohorts.
+Use these files
+parameters.json: point equations, legal fees, outside options, timing and creative extras.
+cases.json: original case stories, roles and fixed agenda.
+ai-prompts.json: shared rules and separately named AI specialists, including dashboard review.
+study-protocol.json: paid-visit timing, bonus rule, scope policy and follow-up wave fields.
+update-log.json: documented app changes. Actual deployments have separate receipts.
+AI_and_study_guide.txt: architecture, choice policy, measures and operating instructions.
 
-Changes apply to new participant sequences. Ongoing sequences keep their case library, rules, assignment and difficulty. Additional rounds inherit the original sequence's rules. Historical economic outcomes are read from saved end-of-round metrics.
+Apply a change
+Open Admin > Case files. Select parameters, cases or prompts, paste JSON and choose
+Validate and apply JSON. Alternatively use the matching public raw GitHub link.
+Study timing and bonuses are edited under Recruitment and timing.
+Change a version label for substantive revisions. The app also hashes settings.
+New sequences use revised settings; saved sequences retain their snapshots.
+Additional negotiations inherit the original sequence's frozen task settings.
 
 Default scoring
-All amounts are USD. price = (fee - 800) / 100. Any fee from 800 to 2400 is legal, to the nearest cent.
-Distributive buyer points: 100 - 8 * price.
-Distributive supplier points: 20 + 8 * price.
-Both sides have a 30-point outside option. The mutually acceptable fee range is therefore 925 to 1675. Negative agreements are legal: 2400 gives the buyer -28 points. The interface requires explicit confirmation before a participant sends or accepts a below-BATNA deal.
+All amounts are USD. price = (fee - 800) / 100. Fees from 800 to 2400 are legal,
+including cents. Distributive buyer points = 70 - 8 * price. Seller points =
+-10 + 8 * price. No deal gives each side zero. The mutually acceptable price
+interval is 925 to 1675. A buyer who agrees to 2400 receives -58 points.
+Participants can explicitly confirm below-zero offers or agreements.
+In integrative cases add the role's setup and payment adjustments. Form B swaps
+the setup/payment adjustment mapping. The server calculates the resulting value.
+Legacy keys human/opponent in parameters denote canonical BUYER/SELLER utilities;
+the engine maps them to the actual participant role. Do not swap those JSON keys
+when a participant happens to be the seller.
 
-Legacy schema keys human/opponent in parameters.json denote the canonical BUYER/SELLER payoff tables, respectively. The engine maps these to the participant and counterpart according to playerRole. This also maps outside options and creative extras. Do not switch the keys when a participant is the seller.
+Study and tutorial
+The default main study assigns each participant to distributive or integrative,
+then draws five distinct cases of that type. A separate mixed schedule is available
+in admin. Buyer/seller order is two of each plus a random fifth, shuffled. Opening
+side is separately randomized. The common integrative tutorial has the participant
+open and teaches typed offers, persuasive chat, the offer form and private AI help.
+Completed profiles skip it on return. Fresh /try links deliberately start anew.
+Practice: up to two minutes preparation, nine minutes chat and one final minute.
+Paid main rounds: up to two minutes preparation, four minutes chat and one final
+minute. General play uses the configured ten-minute main chat. There is no global
+move-count cap within the clock. Refresh does not restart a deadline.
 
-For integrative cases, add each side's setup and payment adjustments to its base-plus-fee score. Form B swaps which issue uses each adjustment vector. The admin console derives a separate ZOPA for each issue package. The agents receive only their own private point sheet.
+AI choice
+Free-choice rounds have no selected role, coaching scope or execution permission.
+A blue Last time marker is context only. Every round requires a new selection.
+Changing role, scope or either permission asks one short reason question; unchanged
+reselection does not. Reasons stay out of every AI context and enter the export.
+Preparation, live coach and negotiator are process roles. Official offer and final
+agreement permissions are separate. AI-led play skips preparation and pauses for
+renewed authorization after at most two AI actions. Private steering is retained.
 
-Defaults and design
-The default main study randomly assigns each player to distributive or integrative for five distinct cases. Mixed-within-player is a separate admin schedule, with a randomized 3/2 split. Main rounds use a shuffled balance of two buyer and two seller roles plus a randomized fifth role. Role order and opening side use seed components separate from task assignment. Practice is integrative, always starts the player as buyer, prompts their first offer, then requires trying private AI advice once. After practice, assistance is optional according to the selected mode.
-Practice preparation is 60 seconds and chat is 210 seconds. Main preparation is 120 seconds and chat is 600 seconds. AI-led modes skip participant preparation. The final decision window is at most 60 seconds after the original chat deadline; refreshing cannot restart it. The default action cap is eight.
+Research and data
+Human SVI retains sixteen original human items and item-specific seven-position
+anchors, two pages, no preset responses, N/A and reverse coding. It is scheduled
+after rounds 1, 3 and 5. Every round asks willingness to continue and a short next
+strategy. Own score is visible before SVI; this round's rank feedback follows SVI.
+Primary outcomes use the common first five. Optional rounds, returns and paid
+follow-up waves are separate. Self-selected delegation is observational.
+Communication plots are experimental wording indicators, not validated traits or
+ability. Detailed reviews use verified own-role facts and message evidence, save
+to the profile and require five new completed negotiations after each review.
 
-Keep supplier point tables in a private repository for studies where participants should not see them. No API keys or participant data belong in this configuration repository. The app's own raw download endpoints require researcher access.
+Privacy and release
+This configuration repository is public replication material, including scoring
+rules. It is not a confidential store. Do not add API keys, passwords, personal
+records, real recruitment/completion codes or private participant transcripts.
+The app's raw configuration and participant-data endpoints require researcher
+access. Paid recruitment remains off until approved study details and actual
+recruitment/completion routes are configured. No payments are sent by the app.
 
-Research interpretation
-The full 16-item Subjective Value Inventory retains seven discrete response steps and is presented as two pages of sliders. Practice and additional rounds are excluded from primary first-five analyses. Delegation is self-selected, so outcome associations are observational. AI agents respect their point floor; participants can override their own BATNA with confirmation. Report below-BATNA and manual-override outcomes separately.
-Review participant information and the approved protocol if you change timing, data handling, incentives or study design. Paid recruitment is not enabled by these files.
+Raw files
+https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/parameters.json
+https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
+https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/ai-prompts.json
+https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/study-protocol.json
 
-References
-Curhan and Vaccaro materials: https://arxiv.org/html/2503.06416v3
-Empirica admin concepts: https://docs.empirica.ly/guides/the-admin-panel
-
-GitHub repository: https://github.com/SamQuinto/AI-negotiation-delegation
-Raw parameters: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/parameters.json
-Raw cases: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
-
-Capacity and recovery
-The protected dashboard uses a bounded, indexed cohort query and never loads synthetic load-test sessions into routine results. Its row-read counter reports only that results query, not account-wide usage. Auto-refresh pauses in background tabs. An interrupted action retains a three-minute lease; the participant page polls saved state, preserves an unsent draft, and recovers expired leases. It never automatically repeats a paid model request.
-
-
-AI prompts, process scope, timed visits and prize bonuses
-See AI_and_study_guide.txt. Editable files now include ai-prompts.json and study-protocol.json. Open Admin > AI prompts and architecture, Recruitment and timing, or AI quality and costs.
+Sources used as methodological references
+https://doi.org/10.1073/pnas.2521774123
+https://arxiv.org/html/2503.06416v3
+https://docs.empirica.ly/guides/the-admin-panel
