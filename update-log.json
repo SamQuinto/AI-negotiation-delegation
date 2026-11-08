@@ -3,9 +3,9 @@
   "entries": [
     {
       "release": "v28",
-      "status": "Implemented",
-      "publishedAtUtc": null,
-      "updatedAtUtc": "2026-11-08T10:13:18+00:00",
+      "status": "Published",
+      "publishedAtUtc": "2026-11-08T10:14:42.380485+00:00",
+      "updatedAtUtc": "2026-11-08T10:22:12+00:00",
       "retrospective": false,
       "title": "Hands-on practice, deliberate AI choices and saved feedback",
       "summary": "Try the controls once, choose your AI support afresh, and build on saved performance feedback.",
@@ -22,7 +22,8 @@
         "Research and operations": [
           "The reviewer has an editable named prompt and a separate validated report schema. No profile, private notes, questionnaire answers or opponent payoff table is sent.",
           "Review views and communication-panel exposure enter the research export. They remain observational feedback interventions, not validated trait measurements.",
-          "Usage is metered separately for the dashboard reviewer. Requests are idempotent and the server prevents concurrent or early repeat reviews."
+          "Usage is metered separately for the dashboard reviewer. Requests are idempotent and the server prevents concurrent or early repeat reviews.",
+          "Choice-policy metadata distinguishes manual selections from separately assigned experimental conditions."
         ],
         "Your AI choice": [
           "No AI role, coaching scope or decision permission is preselected in free-choice rounds. A blue Last time marker shows the previous setup without selecting it.",
@@ -35,7 +36,8 @@
         "The four-step tutorial and saved-profile return behavior passed local UI/API checks.",
         "A synthetic five-round history exercised review persistence, response reuse and the five-new-round gate. The corrected review-v3 used deterministic case facts and passed its live check.",
         "An earlier timeout, an overstrict number-word filter, excessive evidence references and a qualitative term-value misstatement were retained and corrected.",
-        "A local browser walkthrough verified blank choices, the previous-choice marker, change explanation, cancellation and two-action AI renewal with private steering. No model calls were needed for that fixture."
+        "A local browser walkthrough verified blank choices, the previous-choice marker, change explanation, cancellation and two-action AI renewal with private steering. No model calls were needed for that fixture.",
+        "The public host completed a 51-request smoke journey through the four tutorial actions, five cases, an optional sixth, both roles, changed-choice explanation, scheduled SVI and completion. The private host and stored prompt pack were checked in admin."
       ],
       "limits": [
         "Communication indicators need human validation and are not personality or ability scores.",
