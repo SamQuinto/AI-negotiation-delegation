@@ -2,6 +2,47 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v29",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-08T14:15:38+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "More room for your next move",
+      "summary": "A clearer workspace, marked sliders, private AI guidance and an average-first leaderboard.",
+      "changes": {
+        "The experience": [
+          "The negotiation workspace uses the available desktop width. Role & Points and Notes share a left panel; chat remains above a compact inline offer.",
+          "A marked native seven-point slider replaces the previous button scale. Next-round reflections show and enforce a 30-character minimum.",
+          "Home features the leaderboard and a clear new-player action. Returning players can spot public nicknames beside their saved profiles.",
+          "The default desktop cursor uses the Arena logo while interactive controls keep their usual cursor."
+        ],
+        "Your AI and agreements": [
+          "Specific theory-informed steering presets and custom instructions are saved as private chat, followed by a concise acknowledgement without an extra API request.",
+          "When a counterpart accepts your offer, review the exact terms and points before finalizing or continuing. A pending accepted package finalizes if its deadline ends first.",
+          "The outcome recap identifies proposal, acceptance and finalization. New Yes/No questions record perceived ability to do better after official AI offers or AI agreement."
+        ],
+        "Progress and rankings": [
+          "Average points set the main live rank; total points break tied averages. A separate total-points view remains available.",
+          "Future v6 paid-visit prizes use average then total. Older saved policies and finalized payments are preserved.",
+          "The dashboard features play, feedback access, clearly labeled warmth/competence axes, detailed-history buttons, return-link copying and friend challenges."
+        ],
+        "Researcher reference": [
+          "A searchable private Game mechanics tab documents 20 parts of the experience, data and source files. The full guide is also saved locally.",
+          "New guidance, provisional-deal, finalization and perceived-AI comparison events remain in researcher exports. Optional board exposures are timestamped as observations; they never count as generated reviews. The comparison question’s position before SVI is documented as a potential source of priming."
+        ]
+      },
+      "validation": [
+        "246 application tests passed before final visual review, including provisional agreement, deadline, private-steering, average-ranking, legacy-award and profile-isolation regressions.",
+        "TypeScript passed. Desktop, mobile and hosted publication receipts are recorded separately.",
+        "The current development checks use policy fixtures and deterministic acknowledgements; no paid model calls are needed for the repair."
+      ],
+      "limits": [
+        "Communication indicators remain exploratory wording signals, not validated traits or ability.",
+        "The new perceived-AI comparison can affect subsequent SVI responses; retain its administration version.",
+        "Email sending, physical-phone keyboard checks and a 100-user simultaneous live-AI capacity certification remain outside this patch."
+      ]
+    },
+    {
       "release": "v28.3",
       "status": "Implemented",
       "publishedAtUtc": null,

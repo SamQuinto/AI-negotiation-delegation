@@ -1,5 +1,5 @@
 {
-  "version": "arena-visit-v5",
+  "version": "arena-visit-v6",
   "durationSeconds": 3600,
   "finishReserveSeconds": 300,
   "warningSeconds": 600,
@@ -14,7 +14,7 @@
   "bonusPointsCap": 100,
   "ranking": {
     "minimumPoints": 0,
-    "basis": "gain_above_outside",
+    "basis": "average_then_total",
     "enabled": true,
     "size": 50,
     "topBoostPercent": [
