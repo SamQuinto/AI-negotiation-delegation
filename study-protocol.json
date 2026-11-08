@@ -1,0 +1,39 @@
+{
+  "version": "arena-visit-v3",
+  "durationSeconds": 2700,
+  "finishReserveSeconds": 300,
+  "warningSeconds": 600,
+  "urgentSeconds": 150,
+  "roundPreparationSeconds": 90,
+  "roundNegotiationSeconds": 240,
+  "bonusCurrency": "USD",
+  "baseRewardMinor": 900,
+  "bonusRule": "per_point",
+  "bonusMinorPerPoint": 5,
+  "bonusMaximumMinor": null,
+  "bonusPointsCap": 100,
+  "ranking": {
+    "basis": "gain_above_outside",
+    "enabled": true,
+    "size": 50,
+    "topBoostPercent": [
+      100,
+      50,
+      30,
+      25,
+      22,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "restBoostPercent": 10,
+    "closesAt": null
+  },
+  "sviSchedule": "odd_rounds",
+  "scopeAssignment": "participant_choice",
+  "returnPlayAllowed": true,
+  "waveDesign": "single_visit",
+  "waves": []
+}

@@ -40,4 +40,8 @@ Raw parameters: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-deleg
 Raw cases: https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
 
 Capacity and recovery
-The protected dashboard uses a bounded, indexed cohort query and never loads synthetic load-test sessions into routine results. Its row-read counter reports only that results query, not account-wide usage. Auto-refresh pauses in background tabs. An interrupted action retains a two-minute lease; the participant page polls saved state, preserves an unsent draft, and recovers expired leases. It never automatically repeats a paid model request.
+The protected dashboard uses a bounded, indexed cohort query and never loads synthetic load-test sessions into routine results. Its row-read counter reports only that results query, not account-wide usage. Auto-refresh pauses in background tabs. An interrupted action retains a three-minute lease; the participant page polls saved state, preserves an unsent draft, and recovers expired leases. It never automatically repeats a paid model request.
+
+
+AI prompts, process scope, timed visits and prize bonuses
+See AI_and_study_guide.txt. Editable files now include ai-prompts.json and study-protocol.json. Open Admin > AI prompts and architecture, Recruitment and timing, or AI quality and costs.
