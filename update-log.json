@@ -2,6 +2,31 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v30.1",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-08T23:00:45+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Advice that protects your current offer",
+      "summary": "A live warm-up check exposed a worse-price draft hiding inside a message. It now goes through the same exact-value checks as a structured suggestion.",
+      "changes": {
+        "Coach checks": [
+          "Price-bearing private drafts become explicit validated packages before they can be copied or sent.",
+          "A counteroffer worse than the available package is replaced with a computed reciprocal candidate using only the player’s own values and public offers.",
+          "If numeric prose is rejected, the player gets concrete verified terms and a useful next step instead of a generic instruction to read the point sheet.",
+          "Guarded model responses remain distinguishable from raw model output in the researcher audit."
+        ]
+      },
+      "validation": [
+        "The actual observed live response is replayed against the fix, alongside role, score, scope and privacy regressions.",
+        "Final checks and live examples are recorded in the v30.1 release receipt."
+      ],
+      "limits": [
+        "Computed suggestions do not establish that the other side will accept.",
+        "This repair does not validate a model’s general negotiation competence."
+      ]
+    },
+    {
       "release": "v30",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-08T22:43:04+00:00",
