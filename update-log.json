@@ -2,6 +2,47 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v28.3",
+      "status": "Implemented",
+      "publishedAtUtc": null,
+      "updatedAtUtc": "2026-11-08T11:27:23+00:00",
+      "retrospective": false,
+      "title": "Come back to your Arena",
+      "summary": "A clear Home screen, one entry choice and an easy way to find saved profiles.",
+      "changes": {
+        "Returning players": [
+          "Find my profile is visible on the new-player Home screen. A remembered player gets Continue as their profile name and Choose a saved profile.",
+          "Profiles made in earlier preview links can be selected from the same browser. Selecting one returns to the main address with its own saved progress.",
+          "New profiles are remembered at the main address after creation. Completed tutorials stay complete."
+        ],
+        "A simpler start": [
+          "General User and Prolific Participant are one selector. Selecting a type changes one next-step button rather than launching setup immediately.",
+          "Prolific study links still enter the linked study directly. The ordinary Home screen explains where to use a Prolific study link.",
+          "On a phone, the entry card comes before the introduction so the main actions appear early."
+        ],
+        "Home and saved work": [
+          "The named Home button and Arena logo open the landing screen from setup or a negotiation. They retain the current preview scope.",
+          "An unsent chat draft, private notes and unfinished round ratings remain in the same tab when navigating Home and returning.",
+          "Leaving an active negotiation does not stop its clock. Home shows a short reminder.",
+          "The final study check-in retains its deadline behavior. Account selection clears a stale launch cookie without editing study records."
+        ],
+        "Access": [
+          "Same-browser choices require the existing browser cookie. A claimed nickname or Prolific ID cannot disclose another profile.",
+          "Profile name and PIN remain available for another device. Unconfigured email sign-in stays hidden."
+        ]
+      },
+      "validation": [
+        "234 application tests and TypeScript passed before packaging; the production build is recorded in the deployment receipt.",
+        "A local HTTP check verified profile listing, exact-profile resumption, completed tutorial preservation, new-profile memory and rejected cross-origin or other-browser access.",
+        "Browser checks covered both audience choices, Home from the plan and consent, saved-profile selection through the first scored negotiation, retained chat and notes, and a 390-pixel phone layout.",
+        "No model calls were needed for this navigation repair."
+      ],
+      "limits": [
+        "A different browser needs the previously configured PIN or a verified email once email delivery is configured. A profile name by itself is not proof of access.",
+        "The active clock continues on Home. Same-tab unsent drafts do not promise recovery after the tab is closed."
+      ]
+    },
+    {
       "release": "v28.2",
       "status": "Implemented",
       "publishedAtUtc": null,
