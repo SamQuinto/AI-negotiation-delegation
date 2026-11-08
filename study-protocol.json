@@ -13,6 +13,7 @@
   "bonusMaximumMinor": null,
   "bonusPointsCap": 100,
   "ranking": {
+    "minimumPoints": 0,
     "basis": "gain_above_outside",
     "enabled": true,
     "size": 50,
