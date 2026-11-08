@@ -91,12 +91,12 @@
   },
   {
     "id": "fundraiser-practice",
-    "kind": "integrative",
-    "title": "Practice: a charity fundraiser",
+    "kind": "distributive",
+    "title": "Warm-up: a charity fundraiser",
     "service": "sound equipment for a charity fundraiser",
-    "buyer": "You are organizing a charity fundraiser. A local sound supplier can bring the microphones, speakers and technician you need. You would love to have them on board, but three things remain to be agreed: the fee, when they can set up, and when you pay. You care about some of these more than others. Use your points to explore a package you can both accept.",
-    "supplier": "You run a sound business discussing a charity-fundraiser booking with its organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, equipment and technician hours are fixed. Negotiate the fee, setup arrangement and payment terms together. A good trade on one issue can help you protect another."
+    "buyer": "You are organizing a charity fundraiser and need sound equipment. Alex can provide the microphones, speakers and technician. Everything is agreed except the fee. You would like to keep that fee low so more money goes to the charity. Try making an offer, sending a message and asking your private helper for advice.",
+    "supplier": "You run a sound business. The equipment, technician and booking arrangements are already agreed with the charity organiser. You are negotiating only the fee.",
+    "fixed": "The equipment, setup, technician hours and payment arrangements are already agreed. Only the fee is open. This warm-up does not affect your score."
   },
   {
     "id": "creative-event",

@@ -2,6 +2,42 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v30",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-08T22:43:04+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "A simpler start, with fewer ways to get stuck",
+      "summary": "A price-only warm-up, clearer offer recovery and matched score opportunities.",
+      "changes": {
+        "Getting started": [
+          "The first lesson is a structured price offer, visible before the chat composer. Examples guide the chat, typed offer and helper steps.",
+          "Finish warm-up stays visible. Old stalled attempts can continue or restart without losing their transcript. Skipped lessons are recorded honestly.",
+          "A predictable teaching counterpart counters an ambitious opening, holds against repetition and worse prices, and leaves the player free to finish."
+        ],
+        "Offers and points": [
+          "A source-first natural-language interpreter separates meaning from exact score calculation. Clear numeric offers remain fast.",
+          "Missing terms open as blank highlighted choices beside the editable original message. Unsupported conditions do not acquire silent defaults.",
+          "Semantic or helper outages have a safe review/example path. Ordinary amount-free questions do not need an interpretation model."
+        ],
+        "Comparable opportunities": [
+          "New main rules give both roles and both forms a 100-point legal ceiling, zero for no deal, negative possibilities and a matched 72-point best mutually acceptable score.",
+          "The twenty main stories are audited, including the limited diversity of the integrative issue skeleton. Historical rules and paid terms are retained.",
+          "Training exposure, interpreter prompt hashes and usage are recorded separately from coaching. The new prompt is editable in admin."
+        ]
+      },
+      "validation": [
+        "All application regression results, local state-machine stress and browser walkthroughs are retained in the v30 release receipt.",
+        "The repaired 49-case saved-output suite and 15 fresh targeted probes passed. Initial misses and the model timeout remain in the audit.",
+        "Local stress covered 3,600 deterministic offer variants, 80 negotiations, 590 offers and 60 final-decision checks without hosted load."
+      ],
+      "limits": [
+        "These checks do not establish population reliability, equal empirical case difficulty or live-model capacity.",
+        "The twenty main stories do not represent twenty different issue families.",
+        "The legal ceiling is not a promise that the other side will accept a one-sided maximum. Paid recruitment remains off."
+      ]
+    },
+    {
       "release": "v29",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-08T14:15:38+00:00",

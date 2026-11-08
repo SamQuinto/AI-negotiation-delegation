@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "arena-rules-2026-11-08-v9",
+  "version": "arena-rules-2026-11-08-v10",
   "currency": "USD",
   "pricing": {
     "minimum": 800,
@@ -20,41 +20,41 @@
     "opponent": 0
   },
   "distributive": {
-    "humanBase": 70,
+    "humanBase": 100,
     "humanSlope": -8,
-    "opponentBase": -10,
+    "opponentBase": -28,
     "opponentSlope": 8
   },
   "integrative": {
-    "humanBase": 50,
+    "humanBase": 60,
     "humanSlope": -6,
-    "opponentBase": -10,
+    "opponentBase": -36,
     "opponentSlope": 6,
     "humanSchedule": [
       0,
       -5,
-      18
+      30
     ],
     "humanPayment": [
       0,
-      -4,
-      12
+      10,
+      -6
     ],
     "opponentSchedule": [
       0,
-      25,
-      -12
+      10,
+      -6
     ],
     "opponentPayment": [
       0,
-      20,
-      -5
+      -5,
+      30
     ]
   },
   "timing": {
     "practicePreparationSeconds": 120,
     "preparationSeconds": 120,
-    "practiceNegotiationSeconds": 540,
+    "practiceNegotiationSeconds": 180,
     "negotiationSeconds": 600,
     "finalDecisionSeconds": 60,
     "maxTurns": null
@@ -73,5 +73,11 @@
       "opponent": 8
     }
   },
-  "scoreOrigin": "outside_option_zero"
+  "scoreOrigin": "outside_option_zero",
+  "scoreCalibration": {
+    "version": "matched-main-tasks-v1",
+    "legalMaximum": 100,
+    "mutuallyAcceptableMaximum": 72,
+    "jointMaximum": 72
+  }
 }
