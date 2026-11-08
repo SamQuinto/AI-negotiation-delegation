@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "arena-rules-2026-11-07-v7",
+  "version": "arena-rules-2026-11-08-v8",
   "currency": "USD",
   "pricing": {
     "minimum": 800,
@@ -16,19 +16,19 @@
     ]
   },
   "outsideOptions": {
-    "human": 30,
-    "opponent": 30
+    "human": 0,
+    "opponent": 0
   },
   "distributive": {
-    "humanBase": 100,
+    "humanBase": 70,
     "humanSlope": -8,
-    "opponentBase": 20,
+    "opponentBase": -10,
     "opponentSlope": 8
   },
   "integrative": {
-    "humanBase": 80,
+    "humanBase": 50,
     "humanSlope": -6,
-    "opponentBase": 20,
+    "opponentBase": -10,
     "opponentSlope": 6,
     "humanSchedule": [
       0,
@@ -72,5 +72,6 @@
       "human": 10,
       "opponent": 8
     }
-  }
+  },
+  "scoreOrigin": "outside_option_zero"
 }
