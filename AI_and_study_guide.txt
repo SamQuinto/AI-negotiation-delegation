@@ -102,3 +102,6 @@ Admin > AI prompts > Neggy voice and teaching edits helper_voice. Preparation, a
 neggy-guide.json is the deterministic warm-up wording: preparation, negotiation entry, four short lessons and completion. Changing it requires a source deployment; importing model prompts alone does not change interface wording. Raw configuration files contain no credentials or participant histories.
 The tutorial keeps structured offer, ordinary message, typed offer and helper use. Private Neggy lesson messages are excluded from the counterpart prompt. Research exports retain interaction_version and tutorial_guide_version so presentation changes are distinguishable from prompt and scoring changes.
 The source release includes larger centered timers, a highlighted negotiation number and matching own/other offer colours. Current publication is recorded separately by host. These raw files do not prove that a host has already applied the settings.
+
+V32.1 wording update (11 November 2026)
+At the first mention on a page, identify Neggy briefly as the AI assistant. The role-choice heading and its three labels make that clear; subsequent controls use Neggy. Keep the existing assistant subtitle and avoid adding an explanatory paragraph. Scope, authority and model prompts do not change.

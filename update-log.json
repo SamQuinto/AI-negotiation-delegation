@@ -2,6 +2,29 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v32.1",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-11T09:34:14.580221+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "A quick reminder of who Neggy is",
+      "summary": "The support-choice heading introduces Neggy as your AI assistant, and the three options explicitly name Neggy the AI.",
+      "changes": {
+        "Clearer signposts": [
+          "The next-round introduction briefly identifies Neggy as your AI assistant.",
+          "Preparation, live coaching and negotiation choices explicitly name Neggy the AI.",
+          "Offer permissions, check-in settings and negotiation status use Neggy consistently.",
+          "Existing assistant headers retain Your AI Negotiation Assistant. The reminder appears in the heading, without another explanatory text block."
+        ]
+      },
+      "validation": [
+        "TypeScript and the production build are checked before publication. No model calls are needed for these interface wording changes."
+      ],
+      "limits": [
+        "This release changes interface wording; saved AI permissions, prompts and scored outcomes remain as recorded."
+      ]
+    },
+    {
       "release": "v32",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-11T09:14:34.102306+00:00",
