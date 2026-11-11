@@ -2,6 +2,29 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v35.1",
+      "status": "Implemented; publication receipt recorded separately",
+      "updatedAtUtc": "2026-11-11T12:56:58.275955+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Named the person who ended the round",
+      "summary": "The closing message now distinguishes Neggy ending a delegated round from the player pressing End.",
+      "changes": {
+        "Content": [
+          "Show the actual decision maker when a round ends without a deal."
+        ],
+        "Technical": [
+          "Store endingActor with new stop records and derive older actors from recorded events without rewriting transcripts."
+        ]
+      },
+      "validation": [
+        "Two regression cases cover delegated versus manual stops and historical actor recovery. Final full check count is in the release receipt."
+      ],
+      "limits": [
+        "The separate private mirror remains subject to its hosting service’s D1 publication error."
+      ]
+    },
+    {
       "release": "v35",
       "status": "Implemented; final publication recorded separately",
       "updatedAtUtc": "2026-11-11T12:36:47.344769+00:00",
