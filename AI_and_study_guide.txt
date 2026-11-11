@@ -95,3 +95,10 @@ All shared profiles appear on one social leaderboard. Financial study prize rank
 Tutorial skip has a server-enforced six-second confirmation and is permanent for that profile. Actual completed lessons and skipped exposure remain distinguishable.
 The private admin Mechanics guide and v31 update log document current mechanics. Raw prompt files remain editable here; publish them through the admin prompt editor or importer to change runtime settings.
 
+
+V32 update (11 November 2026)
+Neggy is the private helper’s new identity, with professional glasses, six faces and the subtitle Your AI Negotiation Assistant. The draggable cloud remembers its browser position. No-AI rounds have no helper. Opening the window never grants authority.
+Admin > AI prompts > Neggy voice and teaching edits helper_voice. Preparation, advice, offer execution and negotiation stay separate purpose modules. The helper sees only its own role, authorized history and deterministic score facts. Active paid prompt snapshots stay frozen.
+neggy-guide.json is the deterministic warm-up wording: preparation, negotiation entry, four short lessons and completion. Changing it requires a source deployment; importing model prompts alone does not change interface wording. Raw configuration files contain no credentials or participant histories.
+The tutorial keeps structured offer, ordinary message, typed offer and helper use. Private Neggy lesson messages are excluded from the counterpart prompt. Research exports retain interaction_version and tutorial_guide_version so presentation changes are distinguishable from prompt and scoring changes.
+The source release includes larger centered timers, a highlighted negotiation number and matching own/other offer colours. Current publication is recorded separately by host. These raw files do not prove that a host has already applied the settings.

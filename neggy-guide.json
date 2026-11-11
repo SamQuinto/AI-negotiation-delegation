@@ -1,0 +1,40 @@
+{
+  "version": "neggy-guide-v1",
+  "introduction": "Hi, I’m Neggy. I’ll show you the controls, then you can put them to work.",
+  "preparation": "Read your role and points. Note your target, your limit and one reason for your opening offer.",
+  "negotiation": "You’ll make the first offer. I’ll guide you through four quick moves. This round is practice, so its points stay out of your total.",
+  "ready": "You’ve tried the controls. Keep practising, or head into your scored negotiations. Your next move is yours.",
+  "steps": {
+    "structured_offer": {
+      "title": "Send your first offer",
+      "instruction": "Enter a fee in Make your offer, then press Send offer. Use my example if you’d like a starting point.",
+      "confirmation": "Offer sent. Your price and points now appear together in chat.",
+      "number": 1
+    },
+    "conversation": {
+      "title": "Give them a reason",
+      "instruction": "Explain what matters to you, or ask a question. You can talk without changing your offer.",
+      "confirmation": "That’s a chat message. Reasons and questions can move the conversation without changing the terms.",
+      "number": 2
+    },
+    "chat_offer": {
+      "title": "Try an offer in chat",
+      "instruction": "Type a clear price in the message box. You can send my example to try it.",
+      "confirmation": "That counted as an offer. Clear terms in chat are scored just like the offer box.",
+      "number": 3
+    },
+    "helper": {
+      "title": "Ask me for a second view",
+      "instruction": "Ask me for a private suggestion. You choose whether to use it.",
+      "confirmation": "You’ve tried private advice. I help you think; the decision is yours.",
+      "number": 4
+    },
+    "complete": {
+      "title": "You know your way around",
+      "instruction": "Keep negotiating, or finish the tutorial. No pressure. This one is practice.",
+      "confirmation": "",
+      "number": 4
+    }
+  },
+  "completion": "You’ve finished the warm-up. Nicely done. Your next negotiations count toward your score, and you choose how I help."
+}

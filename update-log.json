@@ -2,6 +2,51 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v32",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-11T09:14:34.102306+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Neggy joins your corner",
+      "summary": "A professional, friendly assistant now guides the warm-up and keeps help close throughout the negotiation.",
+      "changes": {
+        "Meet Neggy": [
+          "Neggy has a more professional face, navy glasses and six expressions. The subtitle is Your AI Negotiation Assistant.",
+          "The larger floating cloud can be dragged, remembers its browser position and stays within the screen after resizing. Clicking or pressing Enter opens the docked helper.",
+          "The window can be minimized, restored and enlarged. The mobile dialog has one visible header. Reduced-motion preferences stop the decorative animation."
+        ],
+        "A guided first negotiation": [
+          "Neggy introduces the warm-up, preparation, four lessons and the transition into scored play. Each lesson has one short instruction and an example when useful.",
+          "The four motions remain: send a structured offer, send an ordinary message, make an offer in chat and ask for private advice. Actual progress, early exits and permanent skipping remain distinct.",
+          "Tutorial confirmations are marked as private Neggy messages in chat exports and excluded from the counterpart prompt. These scripted instructions add no model requests.",
+          "The guide has a separate version. Completed steps are retained for returning players; changing the companion does not make them repeat the tutorial."
+        ],
+        "Advice with a clear voice": [
+          "The editable Neggy voice module applies only to private helper roles. The counterpart keeps its separate instructions.",
+          "Neggy is warm and direct, with short bullets, plain language and concrete next steps. Humour is occasional and never forced.",
+          "Preparation builds on the player’s answer. Own-role preferences do not establish the other side’s priorities; the prompt now asks the helper to test that assumption.",
+          "Scoring remains deterministic. Neggy receives own-role material and authorized history, with verified value placeholders. No-help rounds have no helper window or launcher."
+        ],
+        "A clearer negotiation screen": [
+          "The negotiation number is larger and highlighted. Session time and negotiation time are centered, use distinct colours and become urgent as configured time runs out.",
+          "One sentence identifies the player’s role, fee direction and named partner. End negotiation sits on the right.",
+          "Own proposals and own point strips share orange styling; the other side uses blue. Positive offer values include a plus sign.",
+          "Steering options are visible before the first instruction. A selected approach appears in private history with Neggy’s acknowledgement."
+        ]
+      },
+      "validation": [
+        "302 application tests and TypeScript passed before the final packaging check.",
+        "A complete local browser tutorial included a structured offer, ordinary chat, the mistyped offer I can offerr 1.35k, private advice and progression into scored play.",
+        "Browser checks covered dragging without opening, position persistence after reload, bounds at 390 pixels, the mobile window, a 1920-pixel workspace, enlargement, steering acknowledgement and no-helper mode.",
+        "Four small real-model voice probes were retained, including the initial preparation reply that was too long. After revision, preparation replies were 64 and 63 words. These checks do not establish general model reliability."
+      ],
+      "limits": [
+        "The public Worker still needs a valid Cloudflare publishing login. Deployment receipts distinguish the private build from the public host.",
+        "A companion can affect perceived agency and subjective value. Keep interaction and tutorial-guide versions in analysis; do not interpret a presentation change as constant fidelity.",
+        "The companion does not expand scope, authority or the permitted number of AI offers. Existing study prompt snapshots stay frozen."
+      ]
+    },
+    {
       "release": "v31",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-11T08:06:44.870897+00:00",
