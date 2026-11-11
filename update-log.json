@@ -2,6 +2,47 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v35",
+      "status": "Implemented; final publication recorded separately",
+      "updatedAtUtc": "2026-11-11T12:36:47.344769+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "A clear finish, with time to look back",
+      "summary": "Counterparts stay in ordinary bargaining. Finished conversations remain on screen, with an explicit outcome and a player-controlled next step.",
+      "changes": {
+        "UX": [
+          "Removed automatic result popups. A closing panel and a prominent Continue keep the chat reviewable; phones have a fixed bottom Continue.",
+          "Replaced live post-round chat with a concise Neggy closing message, a read-only private-history disclosure and a path to the gated performance review."
+        ],
+        "Visual": [
+          "Friendly white ending notices show status, cause and exact points; negative results are clearly signed and colored.",
+          "Neggy’s face accompanies review requests, saved reviews and the phase transitions."
+        ],
+        "Content": [
+          "Counterparts receive an explicit stay-at-the-table prompt. Normal rejection and disagreement are not reasons to leave.",
+          "Neggy gives brief encouragement and an accurate review-unlock message rather than an on-demand post-round debrief."
+        ],
+        "Technical": [
+          "The server enforces warning-before-withdrawal and requires a new qualifying problem after the warning. Blocked decisions, warnings and withdrawals are audited.",
+          "Automated conversation now has authorship tags. Ambiguous historical autonomous messages are excluded from participant-language feedback; method v7 triggers a free review replacement."
+        ],
+        "Mechanical": [
+          "Four persistently below-alternative offers without improvement, or personal abuse, can warrant a warning. A new qualifying event is needed before withdrawal; viable or improving offers do not qualify.",
+          "Preparation starts on the first acknowledgement. Repeated acknowledgement cannot reset the clock. Outcome notifications retain timeout effective-ending metadata and do not duplicate the chat notice."
+        ]
+      },
+      "validation": [
+        "Final local application-check count, TypeScript and build are recorded in the release receipt.",
+        "Two actual Luna-low polite-rejection probes, one distributive and one integrative, remained open and shared a constructive reply. Estimated test cost $0.001053725.",
+        "Local desktop/mobile browser checks covered saved chat, negative result, decline, manual continuation, timed transitions and Neggy-authored review displays."
+      ],
+      "limits": [
+        "Small live probes do not establish population-level model reliability.",
+        "The warning detector uses explicit public behavior and own-side values, not inferred anger or personality.",
+        "Paid visit deadlines can still close the negotiation window under the existing study rules."
+      ]
+    },
+    {
       "release": "v34",
       "status": "Implemented; publication receipt recorded separately",
       "updatedAtUtc": "2026-11-11T12:15:15.444173+00:00",

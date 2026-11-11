@@ -1,5 +1,5 @@
 {
-  "version": "neggy-guide-v1",
+  "version": "neggy-guide-v2",
   "introduction": "Hi, I’m Neggy. I’ll show you the controls, then you can put them to work.",
   "preparation": "Read your role and points. Note your target, your limit and one reason for your opening offer.",
   "negotiation": "You’ll make the first offer. I’ll guide you through four quick moves. This round is practice, so its points stay out of your total.",
@@ -36,5 +36,5 @@
       "number": 4
     }
   },
-  "completion": "You’ve finished the warm-up. Nicely done. Your next negotiations count toward your score, and you choose how I help."
+  "completion": "You’ve finished this warm-up. Take a moment to look back, then let’s put what you tried into practice."
 }
