@@ -2,6 +2,26 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v33.1",
+      "status": "Implemented; publication recorded separately",
+      "updatedAtUtc": "2026-11-11T11:30:09.741587+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Kept the dashboard tips relevant to every case",
+      "summary": "The short Ideas for next time panel now talks about the available arrangements rather than assuming every case has a fee, setup and payment.",
+      "changes": {
+        "Content": [
+          "Updated the remaining general dashboard tip to fit job conditions, work favours and community cases as well as service bookings."
+        ]
+      },
+      "validation": [
+        "This is a copy change. The v33 336-check regression and TypeScript result is retained; the production build is repeated for the changed source."
+      ],
+      "limits": [
+        "Saved scores, protocols, prompts and review fingerprints are unchanged."
+      ]
+    },
+    {
       "release": "v33",
       "status": "Implemented; final publication recorded separately",
       "updatedAtUtc": "2026-11-11T11:16:40.866870+00:00",
