@@ -41,7 +41,7 @@
         "Four small real-model voice probes were retained, including the initial preparation reply that was too long. After revision, preparation replies were 64 and 63 words. These checks do not establish general model reliability."
       ],
       "limits": [
-        "The public Worker still needs a valid Cloudflare publishing login. Deployment receipts distinguish the private build from the public host.",
+        "Public and private publication are tracked separately. Check the release receipt for the deployment status and configuration applied to each host.",
         "A companion can affect perceived agency and subjective value. Keep interaction and tutorial-guide versions in analysis; do not interpret a presentation change as constant fidelity.",
         "The companion does not expand scope, authority or the permitted number of AI offers. Existing study prompt snapshots stay frozen."
       ]
