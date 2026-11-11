@@ -2,6 +2,45 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v34",
+      "status": "Implemented; publication receipt recorded separately",
+      "updatedAtUtc": "2026-11-11T12:15:15.444173+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Meet Neggy, and see what changed in your play",
+      "summary": "A hands-on homepage example, orange circuit headgear and a review grounded in recent negotiations and earlier goals.",
+      "changes": {
+        "UX": [
+          "Meet Neggy and try Preparation, Live coach and Negotiator in a clearly marked, account-free example. Existing new/returning-player controls stay prominent.",
+          "A Since your last review box compares earlier goals with later relevant behavior. Evidence, sample counts, saved examples and full comparisons open when needed."
+        ],
+        "Visual": [
+          "Orange circuit headgear replaces the top dot. Eleven contextual expressions retain gentle blinking and winking, with reduced-motion support.",
+          "Responsive example chat, offers and role choices; progress cards use the available columns and long evidence expands within a bounded panel."
+        ],
+        "Content": [
+          "Recent five negotiations lead findings; evidence spans rounds and includes recent contrasting behavior. Progress wording states what was checked.",
+          "Shorter review introductions and observations. No celebration after a loss or impasse. The example clearly identifies virtual counterparts."
+        ],
+        "Technical": [
+          "Method v6 triggers the existing free replacement flow for older reviews. Current review context retains earlier goals, verified data, protected round coverage and relevant quotes.",
+          "Removed duplicated review-context records. The current live fixture used about a third less input than its initial check. Conversational point wording no longer triggers the economic-points guard."
+        ],
+        "Mechanical": [
+          "Example payoff and average updates checked against the real job-case scorer. Example actions do not save a round or use AI.",
+          "Progress requires relevant observations in both windows; delegation without participant language cannot count as communication improvement. No-deal rates alone are not labelled learning."
+        ]
+      },
+      "validation": [
+        "353 local application checks and TypeScript passed before final packaging.",
+        "One current live Luna review passed without repair after an initial calibration exposed an idiom false positive. Browser QA covers desktop and phone viewports, not physical-device certification."
+      ],
+      "limits": [
+        "This release does not certify full study readiness, model reliability across a participant population or new concurrent capacity.",
+        "Progress indicators are descriptive heuristics. Different cases, roles and AI choices may explain changes."
+      ]
+    },
+    {
       "release": "v33.1",
       "status": "Implemented; publication recorded separately",
       "updatedAtUtc": "2026-11-11T11:30:09.741587+00:00",
