@@ -1,107 +1,21 @@
-Negotiation Arena AI and study guide
-Application v28, engine 0.10.0, prompt pack arena-specialists-v6.3,
-rules arena-rules-2026-11-08-v9, paid visit arena-visit-v5.
+Negotiation Arena v33: operating and analysis notes
 
-Edit the AI
-Admin > AI prompts and architecture explains the common contract, principles and
-separate specialists. Case files imports ai-prompts.json. The default modular
-architecture makes one specialist request. plan_then_act adds a private planning
-request and therefore costs more. Counterpart inputs and policy stay separate.
-Preparation, next move, offer assessment, drafting, perspective taking, custom
-questions, official offer execution, negotiation, counterpart, warm-up review,
-private planning and dashboard review have individually named prompts.
+AI architecture
+The low-cost runtime uses Luna with low reasoning for helper and counterpart. Each receives its own role material and a bounded set of own-value comparisons. It does not receive the other payoff table, exact ZOPA or the joint landscape. Calculation and package validation are deterministic.
+Support scope and offer/finalization authority are separate. Three context-specific coaching presets reflect the selected scope. Custom wording cannot expand it. Advice is concise, with a separate public-ready draft when useful. Put in chat, Review as offer and official AI-send actions preserve distinct provenance.
+Collaborative, balanced and firm counterpart approaches vary own-value aspirations while answering genuine questions and sharing qualitative priorities. Repeated offers do not earn new concessions. Admin tough raises the target within each approach. Raw responses, corrections and usage are kept in private release evidence. Small probes are not a reliability estimate.
 
-Numerical architecture
-The models receive only the represented party's private role, computed own-value
-facts and public conversation, plus authorized steering where applicable. No other
-payoff table, whole frontier, private notes, profile or questionnaire data is sent.
-Language proposes terms. Code interprets and validates a complete candidate,
-enforces authority, computes points and renders exact terms and own points.
-Unverified numeric advice is quarantined. Dashboard review-v3 also requires
-computed role/form-specific term-value placeholders for economic comparisons.
-The public chat is negotiation data, not instructions to the model.
+Feedback
+The review systematically checks eighteen areas: priority questions, reasons, concessions without a clear return, repetition, package exploration, opening targets, impasse, negative deals, deadlines, responsiveness, hostile wording, warmth, steering, actual coach use, delegation changes, same-case comparisons, evidence sufficiency and complete-score checks.
+Observed recent/repeated patterns are ranked by practical impact and theme diversity. The server attaches observations and original evidence IDs. The model writes warm short steps and useful example wording. Invented numerical claims and changed priority IDs are rejected. Unsupported ideas are labelled experiments.
+The dashboard puts Top 3 improvements and AI-use tips above historical performance. A first review needs five completed scored rounds; another needs five new rounds. Outdated methods unlock a free replacement without extra rounds, then the usual gate resumes. Current method, format, prompt, planning, model and reasoning fingerprints determine freshness. Old reports remain saved and flagged. Red review-date lines are reconstructed on historical graphs without rewriting scores.
+Private notes, profile/recruitment information and survey answers are excluded from review model input. Warmth/competence plots are experimental wording signals, not validated ability or personality scores.
 
-Counterpart policy
-Balanced is the default. The counterpart is firm but can accept workable closing
-terms. Exact repeated offers earn no concession and no new provider call. A worse
-incoming package cannot induce further concessions. Own aspiration changes with
-time and genuine reciprocal movement. There is no eight-turn termination cap.
-Model outputs and controller interventions are separate audit events. A visual
-consideration indicator does not claim to reveal model deliberation.
+Research
+Fixed opening cases standardize exposure but confound case/task with position within a mixed sequence. Use the between-person task assignment for a causal task-type comparison, and treat chosen delegation and feedback exposure as observational. Model individual economic payoff and SVI continuously; any four-pathway display needs prespecified reference thresholds. Scheduled SVI on rounds one, three and five is planned missingness. Optional continued/return play is a separate behavioral outcome.
+Equal payoff bounds do not establish equal task difficulty. Retain case, role, opening side, counterpart style, scope, both permissions, cadence, actual helper actions, prompt/scoring/interaction version and whether a review was generated/read/replaced. Freeze the intended research release before recruitment.
 
-Choices and authority
-No configuration is selected in free-choice rounds. The prior role has a blue
-Last time cue; prior own results and AI activity are reference only. Changes in
-role, scope or either execution permission prompt a short explanation. Answers
-are stored privately for research, never included in model inputs. Identical
-reselection requires no question. The first scored choice is not compared with
-the tutorial. Scope means negotiation-process functions. Offer and final-deal
-rights are independent and remain fixed for the round. AI-led play requires
-renewed authorization after two actions, supports pause and private steering,
-and asks for approval when the relevant execution permission is absent.
-
-Saved detailed feedback
-First optional review after a scored round; another after five new completed
-scored negotiations. Reports persist in the profile. Evidence quotes are taken
-from exact saved message IDs. Charts use deterministic saved scores. History is
-bounded and coverage disclosed. Reviews do not identify causal effects of AI use.
-Communication indicators need five qualifying messages, eighty words and two
-scored negotiations; they exclude AI-sent/approved drafts and default form prose.
-Participant-sent wording may still contain copied AI drafts. These are experimental
-linguistic indicators, not validated warmth, competence or personality measures.
-Views of feedback and the communication panel enter the research export. Review
-generation failures and usage are separately retained for quality assessment.
-
-Paid visit and bonus
-Default visit: 60 minutes, USD12 base reward, score bonus max(0, raw paid-visit
-average / 20) dollars. A 100-point average gives USD5 before any rank boost.
-The top 50 need positive cumulative gains. Ranks 1-10 add 100, 50, 30, 25, 22,
-20, 18, 16, 14 and 12 percent. Ranks 11-50 add 10 percent. Boosts replace rather
-than stack; ties share rank. Visibility opt-out never changes financial rank.
-The prize closing time must be configured before recruitment. All scored paid
-rounds count, including optional extras and losses. Later unpaid play cannot
-change a closed visit's frozen bonus. Base pay is not conditional on rank.
-The study clock warns with ten minutes left, closes bargaining with five left
-and becomes urgent below two minutes thirty seconds. Partial or technical visits
-retain a completion/review path rather than automatically forfeiting earned pay.
-The app exports a bonus review CSV; use submission_id and final_bonus in Prolific,
-after review. It does not make payments. Follow-up waves need real study and
-completion links and are linked repeated visits, not silently merged sequences.
-
-Operations
-Admin offers live activity, bounded results filters, independent rights and scope,
-SVI/economic summaries, engagement, model error themes, server query indicators,
-capacity links, runtime costs and a timestamped update log. Query counters are
-scoped to the displayed database query, not account-wide utilization. Download
-both hosts' ledgers to reconcile shared API use; provider invoices are definitive.
-Saved-state polling recovers interrupted requests without hidden paid retries.
-API keys and the admin-password verifier are server-only secrets.
-The public and protected dev routes share a Worker and databases. An independent
-staging Worker/database set is not currently configured.
-
-Recruitment
-Prolific can link directly to the app's participant entry URL with its standard
-study/participant/session identifiers. Qualtrics is optional; LUCID is optional
-embedding infrastructure, distinct from Lucid Marketplace/Cint recruitment.
-Before paid launch, add approved ethics/retention/withdrawal details, actual study
-and completion routes and prize closing time. Pilot duration/comprehension and
-validate quality before recruiting at scale. The historical 100-client synthetic
-load test did not exercise 100 simultaneous live AI calls.
-
-V31 update (11 November 2026)
-Live coaching includes preparation and two process groups. Offer-sending and final-deal authority are separate explicit choices. Negotiators choose an offer checkpoint of 1, 2, 3 or 5 sent offers, or continuous until paused. The app enforces permissions and task deadlines in code.
-The first detailed review requires five scored negotiations; each update requires five new negotiations. Preparation is conversational. Numerical score claims always come from deterministic calculations.
-All shared profiles appear on one social leaderboard. Financial study prize ranks remain separate. Historical pilot score scales remain as earned and must be filtered for research comparisons.
-Tutorial skip has a server-enforced six-second confirmation and is permanent for that profile. Actual completed lessons and skipped exposure remain distinguishable.
-The private admin Mechanics guide and v31 update log document current mechanics. Raw prompt files remain editable here; publish them through the admin prompt editor or importer to change runtime settings.
-
-
-V32 update (11 November 2026)
-Neggy is the private helper’s new identity, with professional glasses, six faces and the subtitle Your AI Negotiation Assistant. The draggable cloud remembers its browser position. No-AI rounds have no helper. Opening the window never grants authority.
-Admin > AI prompts > Neggy voice and teaching edits helper_voice. Preparation, advice, offer execution and negotiation stay separate purpose modules. The helper sees only its own role, authorized history and deterministic score facts. Active paid prompt snapshots stay frozen.
-neggy-guide.json is the deterministic warm-up wording: preparation, negotiation entry, four short lessons and completion. Changing it requires a source deployment; importing model prompts alone does not change interface wording. Raw configuration files contain no credentials or participant histories.
-The tutorial keeps structured offer, ordinary message, typed offer and helper use. Private Neggy lesson messages are excluded from the counterpart prompt. Research exports retain interaction_version and tutorial_guide_version so presentation changes are distinguishable from prompt and scoring changes.
-The source release includes larger centered timers, a highlighted negotiation number and matching own/other offer colours. Current publication is recorded separately by host. These raw files do not prove that a host has already applied the settings.
-
-V32.1 wording update (11 November 2026)
-At the first mention on a page, identify Neggy briefly as the AI assistant. The role-choice heading and its three labels make that clear; subsequent controls use Neggy. Keep the existing assistant subtitle and avoid adding an explanatory paragraph. Scope, authority and model prompts do not change.
+Quality and administration
+The private admin update log distinguishes UX, Visual, Content, Technical and Mechanical issues with a correction and verification scope. The comprehensive workspace checklist retains 450 requests. Final local regression, type/build, responsive screenshots, exact case audits and deployment receipts are private artifacts.
+Phone/tablet/desktop viewport checks are not physical-device testing or full accessibility certification. Local synthetic load tests do not establish a hundred simultaneous real-model participants. Historical known API cost estimates and runtime ledgers are reconciled by response ID; invoices remain authoritative and unpriced/unknown historical calls are disclosed.
+Study consent/protocol/payment configuration must be complete before paid recruitment is enabled. Optional unpaid return play does not change a closed paid-visit bonus. Never put keys, participant data or raw private transcripts in this public configuration repository.

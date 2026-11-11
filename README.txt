@@ -1,85 +1,37 @@
 Negotiation Arena editable configuration
-Updated 8 November 2026, application v28
+Application v33. Updated 11 November 2026.
 
 Public app: https://play.the-negotiation-arena.workers.dev/
 Fresh participant preview: https://play.the-negotiation-arena.workers.dev/try
-Protected administration: https://play.the-negotiation-arena.workers.dev/admin
+Protected developer preview: https://play.the-negotiation-arena.workers.dev/preview
+Administration: https://play.the-negotiation-arena.workers.dev/admin
 
-Use these files
-parameters.json: point equations, legal fees, outside options, timing and creative extras.
-cases.json: original case stories, roles and fixed agenda.
-ai-prompts.json: shared rules and separately named AI specialists, including dashboard review.
-study-protocol.json: paid-visit timing, bonus rule, scope policy and follow-up wave fields.
-update-log.json: documented app changes. Actual deployments have separate receipts.
-AI_and_study_guide.txt: architecture, choice policy, measures and operating instructions.
+Editable files
+cases.json: original stories, private role values, explicit issues/options, role names and BATNA backstories.
+parameters.json: legacy fee equations, score calibration, legal range, timing and no-deal values.
+ai-prompts.json: named specialists, scope gate, concise voice and evidence-based dashboard review.
+study-protocol.json: an editable protocol example. Actual saved runtime protocol may differ.
+neggy-guide.json: warm-up and transition guide content.
+update-log.json: timestamped changes and five-category quality review. Separate deployment receipts confirm publication.
+AI_and_study_guide.txt: mechanics, analysis and operating notes.
 
-Apply a change
-Open Admin > Case files. Select parameters, cases or prompts, paste JSON and choose
-Validate and apply JSON. Alternatively use the matching public raw GitHub link.
-Study timing and bonuses are edited under Recruitment and timing.
-Change a version label for substantive revisions. The app also hashes settings.
-New sequences use revised settings; saved sequences retain their snapshots.
-Additional negotiations inherit the original sequence's frozen task settings.
+Use Admin > Case files to validate/apply parameters, cases or prompts, including their raw GitHub links. Recruitment and timing controls edit the actual protocol. Changes affect new sequences; historical outcomes and active policy snapshots remain as saved.
 
-Default scoring
-All amounts are USD. price = (fee - 800) / 100. Fees from 800 to 2400 are legal,
-including cents. Distributive buyer points = 70 - 8 * price. Seller points =
--10 + 8 * price. No deal gives each side zero. The mutually acceptable price
-interval is 925 to 1675. A buyer who agrees to 2400 receives -58 points.
-Participants can explicitly confirm below-zero offers or agreements.
-In integrative cases add the role's setup and payment adjustments. Form B swaps
-the setup/payment adjustment mapping. The server calculates the resulting value.
-Legacy keys human/opponent in parameters denote canonical BUYER/SELLER utilities;
-the engine maps them to the actual participant role. Do not swap those JSON keys
-when a participant happens to be the seller.
+Opening case order
+Mixed is now the default. Its five standardized cases are community-sound, analyst-job-terms, recording-royalty, colleague-work-favour, land-development.
+All-distributive: community-sound, recording-royalty, mobile-coffee-cart, shared-studio-hours, launch-photos.
+All-integrative: analyst-job-terms, community-venue-terms, colleague-work-favour, household-renewal, land-development.
+The app saves openingCaseIds and arena-standard-five-v1 on each new sequence. Keep those IDs available when editing a bank; the order itself is defined in lib/cases.ts in the private application source. Existing older sequences are retained.
+Later rounds draw randomly within the assigned treatment. Mixed return rounds draw task type with equal probability. There are twelve active distributive and ten active integrative cases. Retired cases remain for saved historical records.
 
-Study and tutorial
-The default main study assigns each participant to distributive or integrative,
-then draws five distinct cases of that type. A separate mixed schedule is available
-in admin. Buyer/seller order is two of each plus a random fifth, shuffled. Opening
-side is separately randomized. The common integrative tutorial has the participant
-open and teaches typed offers, persuasive chat, the offer form and private AI help.
-Completed profiles skip it on return. Fresh /try links deliberately start anew.
-Practice: up to two minutes preparation, nine minutes chat and one final minute.
-Paid main rounds: up to two minutes preparation, four minutes chat and one final
-minute. General play uses the configured ten-minute main chat. There is no global
-move-count cap within the clock. Refresh does not restart a deadline.
+Scoring
+No deal is zero; explicitly confirmed negative agreements are possible. Fee-case USD range is 800 to 2400, including cents. Let p=(fee-800)/100. Current distributive canonical buyer points=100-8*p and seller points=-28+8*p. Both role legal maxima are 100; the individually rational own maximum is 72 and joint maximum is 72. The mutually acceptable fee interval is 1150 to 2050.
+New categorical cases use issueSchema arena-issues-v1, with options containing a/b points for the two canonical roles. Internal buyer/seller maps to those roles; displayed names can be candidate/manager, colleague, mayor/developer or another scenario role. Every complete proposal needs one choice index per issue. Fee/setup/payment placeholders are zero in categorical proposals, and no extra fee or salary can be inserted.
+All new categorical cases have legal own maximum 100, mutually acceptable own maximum 72 and joint maximum 72. Exact finite ZOPA diagnostics and issue pairs are retained privately. This calibration does not establish equal empirical difficulty.
 
-AI choice
-Free-choice rounds have no selected role, coaching scope or execution permission.
-A blue Last time marker is context only. Every round requires a new selection.
-Changing role, scope or either permission asks one short reason question; unchanged
-reselection does not. Reasons stay out of every AI context and enter the export.
-Preparation, live coach and negotiator are process roles. Official offer and final
-agreement permissions are separate. AI-led play skips preparation and pauses for
-renewed authorization after at most two AI actions. Private steering is retained.
+Research and privacy
+The first five are fixed in order within treatment. Case and round position are therefore linked, including task type in mixed play. Self-selected AI delegation is observational. Preserve case, displayed/internal role, opening side, score/prompt/interaction version and counterpart approach in analysis. Randomized between-participant all-D versus all-I remains a separate admin choice.
+These raw files include both roles' payoffs. They are editable public research assets, not a technical guarantee that a motivated participant cannot inspect the other role. AI runtime prompts receive only their own role values and public history. No credentials, participant records or private transcripts belong in this repository.
 
-Research and data
-Human SVI retains sixteen original human items and item-specific seven-position
-anchors, two pages, no preset responses, N/A and reverse coding. It is scheduled
-after rounds 1, 3 and 5. Every round asks willingness to continue and a short next
-strategy. Own score is visible before SVI; this round's rank feedback follows SVI.
-Primary outcomes use the common first five. Optional rounds, returns and paid
-follow-up waves are separate. Self-selected delegation is observational.
-Communication plots are experimental wording indicators, not validated traits or
-ability. Detailed reviews use verified own-role facts and message evidence, save
-to the profile and require five new completed negotiations after each review.
-
-Privacy and release
-This configuration repository is public replication material, including scoring
-rules. It is not a confidential store. Do not add API keys, passwords, personal
-records, real recruitment/completion codes or private participant transcripts.
-The app's raw configuration and participant-data endpoints require researcher
-access. Paid recruitment remains off until approved study details and actual
-recruitment/completion routes are configured. No payments are sent by the app.
-
-Raw files
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/parameters.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/cases.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/ai-prompts.json
-https://raw.githubusercontent.com/SamQuinto/AI-negotiation-delegation/main/study-protocol.json
-
-Sources used as methodological references
-https://doi.org/10.1073/pnas.2521774123
-https://arxiv.org/html/2503.06416v3
-https://docs.empirica.ly/guides/the-admin-panel
+Hosting
+The neutral public app is the existing play Worker on Sam's Cloudflare account. The protected /preview route shares its host/data and requires admin authentication. The separate owner-private Sites deployment is kept synchronized but has a separate database. Worker/D1 plans, current admission caps, real-time activity, API budget and usage are reviewed in the private console. No new capacity or paid-recruitment readiness claim is made by a source update.

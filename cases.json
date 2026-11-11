@@ -6,7 +6,11 @@
     "service": "event photography",
     "buyer": "You are organizing a product launch for a small business. The team has put a lot into this day, and you want photographs that capture it well. You have found a photographer whose work you love and would be pleased to book them. The service is agreed, but their fee is still unresolved. Your job is to find a price you can both say yes to.",
     "supplier": "You are a professional photographer discussing a one-day product-launch booking with the event organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The date, a full day of photography, 40 edited photographs and delivery within seven days are already agreed. Only the fee is open for negotiation."
+    "fixed": "The date, a full day of photography, 40 edited photographs and delivery within seven days are already agreed. Only the fee is open for negotiation.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "community-sound",
@@ -15,7 +19,11 @@
     "service": "sound equipment and a technician",
     "buyer": "You are organizing a community event in a local hall. Volunteers have been working hard to bring everyone together, and clear sound will make a real difference on the day. A local supplier can provide the microphones, speakers and technician you need. You would like to work with them, but you still disagree about the fee. Try to settle the price while keeping the conversation constructive.",
     "supplier": "You run a sound-equipment business. The community-event organiser wants to book your equipment and technician. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The date, equipment, technician hours and setup arrangements are already agreed. Only the fee is open for negotiation."
+    "fixed": "The date, equipment, technician hours and setup arrangements are already agreed. Only the fee is open for negotiation.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "conference-recording",
@@ -24,7 +32,11 @@
     "service": "conference recording",
     "buyer": "You are organizing a one-day university conference. Colleagues who cannot attend are counting on recordings of the talks. You have found a production company that can cover the event and deliver the recordings as agreed. You would like to confirm the booking, but there is still a gap over the fee. Negotiate a price that works for your side.",
     "supplier": "You run a production company discussing a one-day conference-recording booking with the organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "One camera operator, recording of six talks and delivery of the edited recordings within two weeks are already agreed. Only the fee is open for negotiation."
+    "fixed": "One camera operator, recording of six talks and delivery of the edited recordings within two weeks are already agreed. Only the fee is open for negotiation.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "exhibition-displays",
@@ -33,7 +45,11 @@
     "service": "exhibition display equipment",
     "buyer": "You are organizing a weekend exhibition for local makers. You want their work to look its best, and you have selected the display boards and tables with a hire supplier. Delivery, collection and the equipment are settled. You would be happy to make the booking, but the hire fee is still in dispute. Work towards an agreement on the price.",
     "supplier": "You run an equipment-hire business negotiating the fee for a weekend exhibition booking. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The display boards, tables, delivery, collection and hire dates are already agreed. Only the fee is open for negotiation."
+    "fixed": "The display boards, tables, delivery, collection and hire dates are already agreed. Only the fee is open for negotiation.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "awards-video",
@@ -42,7 +58,11 @@
     "service": "awards-ceremony filming",
     "buyer": "You are organizing an awards ceremony for a professional association. The winners and their colleagues would love a short film they can look back on. A videographer you like is available, and you have agreed on the filming and highlights video. Before you can confirm, you need to resolve the fee. See whether you can close that gap.",
     "supplier": "You are a videographer negotiating a booking to film an awards ceremony and produce a highlights video. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, filming hours, a five-minute highlights video and delivery within two weeks are already agreed. Only the fee is open for negotiation."
+    "fixed": "The event date, filming hours, a five-minute highlights video and delivery within two weeks are already agreed. Only the fee is open for negotiation.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "awards-production",
@@ -51,7 +71,12 @@
     "service": "sound and lighting for an awards night",
     "buyer": "You are organizing an awards night for a university department. You want the evening to run smoothly and feel special for the people being recognized. A production company can provide the sound, lighting and technician. You would like to book them, but the fee, setup arrangement and payment terms are still open. Think about the whole package: a useful trade on one issue may help you get more on another.",
     "supplier": "You run a production company negotiating sound, lighting and technician services for a university awards night. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "festival-lighting",
@@ -60,7 +85,12 @@
     "service": "lighting for an arts festival",
     "buyer": "You are organizing an evening performance at a local arts festival. The performers are ready, and you have chosen a lighting supplier whose work suits the event. You would like to confirm the booking, but three things remain to be agreed: the fee, the setup arrangement and payment terms. You each have your own priorities, so explore where a trade might work.",
     "supplier": "You run a lighting business negotiating a booking for an evening arts-festival performance. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, lighting equipment and operator hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+    "fixed": "The event date, lighting equipment and operator hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "expo-audio",
@@ -69,7 +99,12 @@
     "service": "audio equipment for a business expo",
     "buyer": "You are organizing a one-day business expo with a small presentation stage. Good audio will help the speakers connect with visitors. A supplier can provide the equipment and technician, and you would like them on board. The fee, setup arrangement and payment terms are still unresolved. Look for a complete booking that protects what matters most to you.",
     "supplier": "You run an audio business negotiating equipment and technician services for a one-day business expo. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side."
+    "fixed": "The event date, equipment and technician hours are fixed. You can negotiate the fee, setup arrangement and payment date. These three issues may matter differently to each side.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "theatre-recording",
@@ -78,7 +113,12 @@
     "service": "theatre recording",
     "buyer": "You manage a small theatre company. The team has worked hard on this performance, and you want a recording to preserve it in your archive. A production crew you like is available. Before you confirm, you need to agree on the fee, access for setup and payment terms. Consider the package as a whole and ask what could make the booking work for both sides.",
     "supplier": "You run a production team negotiating a theatre-performance recording booking with the company manager. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The performance date, camera equipment, crew hours and delivery of one edited recording are fixed. Negotiate only the fee, setup arrangement and payment date."
+    "fixed": "The performance date, camera equipment, crew hours and delivery of one edited recording are fixed. Negotiate only the fee, setup arrangement and payment date.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "fundraiser-staging",
@@ -87,7 +127,12 @@
     "service": "staging and sound for a charity evening",
     "buyer": "You are organizing a charity evening in a community venue. Volunteers have done a lot to bring it together, and a reliable stage and sound setup will help the event run smoothly. You have found a supplier you would love to book. The core service is settled, but the fee, setup arrangement and payment terms are still in dispute. Explore a package you can both accept.",
     "supplier": "You run an event-staging business negotiating a charity-evening booking with its organiser. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, stage size, equipment and technician hours are fixed. Negotiate only the fee, setup arrangement and payment date."
+    "fixed": "The event date, stage size, equipment and technician hours are fixed. Negotiate only the fee, setup arrangement and payment date.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "fundraiser-practice",
@@ -96,7 +141,11 @@
     "service": "sound equipment for a charity fundraiser",
     "buyer": "You are organizing a charity fundraiser and need sound equipment. Alex can provide the microphones, speakers and technician. Everything is agreed except the fee. You would like to keep that fee low so more money goes to the charity. Try making an offer, sending a message and asking your private helper for advice.",
     "supplier": "You run a sound business. The equipment, technician and booking arrangements are already agreed with the charity organiser. You are negotiating only the fee.",
-    "fixed": "The equipment, setup, technician hours and payment arrangements are already agreed. Only the fee is open. This warm-up does not affect your score."
+    "fixed": "The equipment, setup, technician hours and payment arrangements are already agreed. Only the fee is open. This warm-up does not affect your score.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "creative-event",
@@ -105,7 +154,11 @@
     "service": "event production",
     "buyer": "You are organizing an event and have found a production supplier you would like to work with. The fee, setup and payment terms are still open. You also control a few resources that might help make a partnership work. Start by understanding what matters to each side, then see whether a concrete additional arrangement could create something useful.",
     "supplier": "You supply event production and are negotiating a booking with the organiser. Useful additional arrangements may be possible. You would like to make this work, while protecting the value of your time and resources. Use your private point sheet to decide which terms you can accept.",
-    "fixed": "The event date, core equipment and technician hours are fixed. New terms must be recognised by the task and included in a complete offer before they affect points."
+    "fixed": "The event date, core equipment and technician hours are fixed. New terms must be recognised by the task and included in a complete offer before they affect points.",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "touring-bike",
@@ -116,7 +169,11 @@
     "supplier": "You are selling a touring bike you have looked after carefully. A buyer has inspected it and is keen to take it on a long trip. You would be happy to sell, but want a price that reflects its value.",
     "fixed": "The bicycle, accessories, condition and collection date are agreed. Only the sale price is negotiable.",
     "priceLabel": "Price",
-    "sellerLabel": "Seller"
+    "sellerLabel": "Seller",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "camera-kit",
@@ -127,7 +184,11 @@
     "supplier": "You are selling a camera and lens kit after upgrading your equipment. The buyer has tested it and everything else is agreed. You want the sale to reflect the care you have taken with it.",
     "fixed": "The camera, lenses, condition and collection arrangements are fixed. Negotiate only the sale price.",
     "priceLabel": "Price",
-    "sellerLabel": "Seller"
+    "sellerLabel": "Seller",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "studio-desk",
@@ -138,7 +199,11 @@
     "supplier": "You are selling a solid-wood desk as you reorganize your workspace. The buyer has seen it and agreed collection details. You would like a fair return rather than rushing to accept the first price.",
     "fixed": "The desk, condition, collection and date are fixed. Only the sale price is open.",
     "priceLabel": "Price",
-    "sellerLabel": "Seller"
+    "sellerLabel": "Seller",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "mobile-coffee-cart",
@@ -149,7 +214,11 @@
     "supplier": "You are selling a mobile coffee cart after changing your business. A prospective owner has inspected it and agreed the handover. You want to make the sale, while protecting the value of a useful piece of equipment.",
     "fixed": "The cart, included equipment, condition and handover are fixed. Negotiate only the sale price.",
     "priceLabel": "Price",
-    "sellerLabel": "Seller"
+    "sellerLabel": "Seller",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "design-project",
@@ -160,7 +229,11 @@
     "supplier": "You are a designer discussing a visual identity for a neighborhood bookshop. The scope and schedule are agreed. You would enjoy the project, while ensuring the fee reflects the time and care it will take.",
     "fixed": "The logo, color palette, two revisions and delivery date are fixed. Only the project fee is negotiable.",
     "priceLabel": "Fee",
-    "sellerLabel": "Designer"
+    "sellerLabel": "Designer",
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "studio-workstations",
@@ -169,7 +242,12 @@
     "service": "studio workstation installation",
     "buyer": "You help run a shared creative studio. A supplier can install the workstations you need before new members arrive. The equipment is agreed, but you still need to settle the price, access for setup and payment terms. A reliable setup matters to you, and you may have flexibility elsewhere.",
     "supplier": "You supply and install studio workstations. The studio has confirmed the equipment it wants. You would like the contract, while managing your installation schedule and cash flow.",
-    "fixed": "The equipment, service date and installation scope are fixed. Negotiate the fee, setup access and payment terms."
+    "fixed": "The equipment, service date and installation scope are fixed. Negotiate the fee, setup access and payment terms.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "garden-lighting",
@@ -178,7 +256,12 @@
     "service": "community garden lighting installation",
     "buyer": "You help manage a community garden that is opening for evening visits. A contractor can install the lighting you have selected. You want the work to go smoothly, but the fee, setup access and payment terms remain open. Explore what matters to each side before settling on a package.",
     "supplier": "You are a lighting contractor discussing an installation for a community garden. The equipment and scope are settled. You want a useful contract that also fits your schedule and payment needs.",
-    "fixed": "The lights, installation scope and service date are agreed. Negotiate only the fee, setup access and payment terms."
+    "fixed": "The lights, installation scope and service date are agreed. Negotiate only the fee, setup access and payment terms.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "podcast-studio",
@@ -187,7 +270,12 @@
     "service": "podcast studio recording",
     "buyer": "Your small team is launching a podcast. You have found a recording studio with the equipment and staff you need. The session is agreed, but the fee, setup access and payment terms are not. Think about the package as a whole and decide what you can trade.",
     "supplier": "You run a recording studio. A team wants to record its first podcast with you, and the equipment and session are agreed. You would like the booking to make good use of your staff and space.",
-    "fixed": "The recording date, equipment, operator hours and final audio delivery are fixed. Negotiate the fee, setup access and payment terms."
+    "fixed": "The recording date, equipment, operator hours and final audio delivery are fixed. Negotiate the fee, setup access and payment terms.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "market-installation",
@@ -196,7 +284,12 @@
     "service": "market stall installation",
     "buyer": "You are opening a stall at a weekend market. An installation team can assemble the display you have chosen. You want to be ready without stretching your resources. The fee, setup access and payment terms still need to be worked out.",
     "supplier": "You run a small installation business. A market trader has agreed the display and service date. You would welcome the work, while keeping your team’s schedule and payment needs in mind.",
-    "fixed": "The display, installation scope and service date are fixed. Only the fee, setup access and payment terms can change."
+    "fixed": "The display, installation scope and service date are fixed. Only the fee, setup access and payment terms can change.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
   },
   {
     "id": "school-projection",
@@ -205,6 +298,1657 @@
     "service": "school-show projection setup",
     "buyer": "You are coordinating a school performance. A supplier can provide the projection system and technician the production needs. You are keen to confirm, but the fee, setup arrangement and payment terms are unresolved. Look for trades that help the show while making the booking work.",
     "supplier": "You supply projection systems and technicians. A school wants to book an agreed system for its show. You would like to help, while ensuring the schedule and payment arrangements work for your business.",
-    "fixed": "The system, show date and technician hours are fixed. Negotiate only the fee, setup arrangement and payment terms."
+    "fixed": "The system, show date and technician hours are fixed. Negotiate only the fee, setup arrangement and payment terms.",
+    "retired": true,
+    "batna": {
+      "buyer": "You can use your backup provider and keep the project going. That alternative is the reference point worth 0 points.",
+      "seller": "You can release this booking and use the time for other work. That alternative is worth 0 points."
+    }
+  },
+  {
+    "id": "analyst-job-terms",
+    "kind": "integrative",
+    "title": "Your next job, beyond the salary",
+    "service": "the working arrangements for a new analyst role",
+    "buyer": "You have been offered an analyst role at a growing research company. The salary is agreed at $72,000. You like the team and want the job to fit your life. Remote days and a shorter probation period matter most to you. You can be more flexible about vacation allowance and office location. Work out the remaining terms as one package.",
+    "supplier": "You want to hire this analyst and have agreed a $72,000 salary. You are planning team coverage for the coming year. Vacation allowance and office location matter most to you. You have more room on remote days and probation length. Agree the working arrangements without reopening salary.",
+    "fixed": "Salary is $72,000. The role, duties and benefits already agreed remain fixed. Only remote days, vacation, probation and office location are open.",
+    "sellerLabel": "Hiring manager",
+    "roleLabels": {
+      "buyer": "Job candidate",
+      "seller": "Hiring manager"
+    },
+    "batna": {
+      "buyer": "You can accept another role with a longer commute and predictable terms. It is your 0-point alternative.",
+      "seller": "You can continue your search with an experienced contractor covering the work. It is your 0-point alternative."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "remote_days",
+        "label": "Remote days",
+        "definition": "Regular remote-working days each week.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "4 days a week",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "2 days a week",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "Office based",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "vacation",
+        "label": "Vacation",
+        "definition": "Annual paid vacation, excluding public holidays.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "20 days a year",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "25 days a year",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "30 days a year",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      },
+      {
+        "id": "probation",
+        "label": "Probation",
+        "definition": "The initial probation period, after which normal review arrangements apply.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "1 month",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "3 months",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "6 months",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "location",
+        "label": "Office location",
+        "definition": "The office used on days when you work on site.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Central office",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "Either office by arrangement",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "Neighbourhood office",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "remote_days",
+        "vacation"
+      ],
+      [
+        "probation",
+        "location"
+      ]
+    ]
+  },
+  {
+    "id": "engineering-job-terms",
+    "kind": "integrative",
+    "title": "A role worth moving for",
+    "service": "a senior engineer’s working arrangements",
+    "buyer": "You are considering a senior engineering role. Salary is agreed at $84,000. Training support, remote days and a manageable on-call schedule matter most to you. You have more flexibility on when you start, which assignment you take and when your first review happens. You want a package you can commit to.",
+    "supplier": "You want this engineer on the team and have agreed an $84,000 salary. A timely start, a core-team assignment and an early review matter most to you. You can be more flexible about training support, remote days and on-call weekends.",
+    "fixed": "Salary, job title and core benefits are agreed. Only the six listed working arrangements are negotiable.",
+    "sellerLabel": "Engineering manager",
+    "roleLabels": {
+      "buyer": "Job candidate",
+      "seller": "Engineering manager"
+    },
+    "batna": {
+      "buyer": "You can remain in your current job, where the work is familiar. That option is worth 0 points.",
+      "seller": "You can keep a contractor on the project while you recruit again. That option is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "training",
+        "label": "Training budget",
+        "definition": "Annual approved professional-development budget.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "$3,000 a year",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "$1,500 a year",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "No separate budget",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "start",
+        "label": "Start date",
+        "definition": "Time from accepting the job to starting work.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "In 2 weeks",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "In 4 weeks",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "In 8 weeks",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "remote_days",
+        "label": "Remote days",
+        "definition": "Regular remote-working days each week.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "4 days a week",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "2 days a week",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "Office based",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "assignment",
+        "label": "First assignment",
+        "definition": "The agreed focus for the first six months.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Core platform team",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "Rotation across teams",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "Independent prototype",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "on_call",
+        "label": "On-call weekends",
+        "definition": "Expected on-call weekends in a typical month.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "None",
+            "a": 27.2,
+            "b": -12.8
+          },
+          {
+            "label": "1 weekend a month",
+            "a": 12.8,
+            "b": 1.6
+          },
+          {
+            "label": "2 weekends a month",
+            "a": -27.2,
+            "b": 12.8
+          }
+        ]
+      },
+      {
+        "id": "review",
+        "label": "First review",
+        "definition": "Timing of the first formal development review.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "After 3 months",
+            "a": -12.8,
+            "b": 27.2
+          },
+          {
+            "label": "After 6 months",
+            "a": 1.6,
+            "b": 12.8
+          },
+          {
+            "label": "After 12 months",
+            "a": 12.8,
+            "b": -27.2
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "training",
+        "start"
+      ],
+      [
+        "remote_days",
+        "assignment"
+      ],
+      [
+        "on_call",
+        "review"
+      ]
+    ]
+  },
+  {
+    "id": "community-venue-terms",
+    "kind": "integrative",
+    "title": "Making room for a community evening",
+    "service": "the arrangements for a community evening",
+    "buyer": "Your volunteer group is hosting a community evening. You and the venue have agreed a $900 fee. Early setup access and visible signage matter most to you. You can contribute more volunteer time to cleanup and stewarding if that helps. Settle the remaining arrangements together.",
+    "supplier": "Your venue is hosting a community evening at an agreed fee of $900. Clear cleanup and stewarding commitments matter most to your small team. You have room to discuss setup access and signage.",
+    "fixed": "The $900 fee, event date, rooms and capacity are agreed. Negotiate only the four arrangements below.",
+    "sellerLabel": "Venue coordinator",
+    "roleLabels": {
+      "buyer": "Event organiser",
+      "seller": "Venue coordinator"
+    },
+    "batna": {
+      "buyer": "You can use a smaller community hall with standard arrangements. It is worth 0 points.",
+      "seller": "You can leave the room available for another booking and keep the usual staffing plan. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "access",
+        "label": "Setup access",
+        "definition": "When the organiser can start setting up the agreed room.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "The evening before",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "The event morning",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "2 hours before opening",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "cleanup",
+        "label": "Cleanup",
+        "definition": "Who handles the agreed end-of-evening cleanup.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "Organiser handles cleanup",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "Shared cleanup",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "Venue handles cleanup",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      },
+      {
+        "id": "signage",
+        "label": "Event signage",
+        "definition": "The agreed place for a temporary event sign.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Street-facing banner",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "Foyer sign",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "Room entrance only",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "stewarding",
+        "label": "Stewarding",
+        "definition": "Who supplies stewards during the event.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Organiser supplies stewards",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "Shared stewarding",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "Venue supplies stewards",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "access",
+        "cleanup"
+      ],
+      [
+        "signage",
+        "stewarding"
+      ]
+    ]
+  },
+  {
+    "id": "project-handover",
+    "kind": "integrative",
+    "title": "Getting two teams to launch together",
+    "service": "a shared product launch plan",
+    "buyer": "Your engineering team and a design team share a product launch in twelve weeks. A later design handoff, a focused launch and complete documentation matter most to your team. You can be more flexible on review support, customer interviews and demo ownership. Find a plan both teams can work with.",
+    "supplier": "Your design team is working with engineering on a launch in twelve weeks. Review support, customer interviews and demo ownership matter most to you. You have more room on handoff timing, launch scope and documentation.",
+    "fixed": "The launch date, overall budget and staffing are fixed. Negotiate only the six work arrangements below.",
+    "sellerLabel": "Design lead",
+    "roleLabels": {
+      "buyer": "Engineering lead",
+      "seller": "Design lead"
+    },
+    "batna": {
+      "buyer": "You can run a smaller engineering-only release under the existing plan. It is worth 0 points.",
+      "seller": "You can move the design work into the next release cycle. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "handoff",
+        "label": "Design handoff",
+        "definition": "When the final design package reaches engineering.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "In 6 weeks",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "In 4 weeks",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "In 2 weeks",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "reviews",
+        "label": "Engineering review support",
+        "definition": "Weekly engineering time available for design reviews.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "10 hours a week",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "6 hours a week",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "2 hours a week",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "scope",
+        "label": "Launch scope",
+        "definition": "The feature set included in this release.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Core features only",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "Core plus selected extras",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "Full feature set",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "interviews",
+        "label": "Customer interviews",
+        "definition": "Customer interviews organised by engineering before launch.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "12 interviews",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "8 interviews",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "4 interviews",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "documentation",
+        "label": "Design documentation",
+        "definition": "Documentation included with the design handoff.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "Full annotated specification",
+            "a": 27.2,
+            "b": -12.8
+          },
+          {
+            "label": "Key flows and notes",
+            "a": 12.8,
+            "b": 1.6
+          },
+          {
+            "label": "Short summary",
+            "a": -27.2,
+            "b": 12.8
+          }
+        ]
+      },
+      {
+        "id": "demo",
+        "label": "Launch demo",
+        "definition": "Who prepares and leads the launch demonstration.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "Engineering leads",
+            "a": -12.8,
+            "b": 27.2
+          },
+          {
+            "label": "Shared ownership",
+            "a": 1.6,
+            "b": 12.8
+          },
+          {
+            "label": "Design leads",
+            "a": 12.8,
+            "b": -27.2
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "handoff",
+        "reviews"
+      ],
+      [
+        "scope",
+        "interviews"
+      ],
+      [
+        "documentation",
+        "demo"
+      ]
+    ]
+  },
+  {
+    "id": "household-renewal",
+    "kind": "integrative",
+    "title": "A home that works for both of you",
+    "service": "the shared-house arrangements for the coming year",
+    "buyer": "You and your housemate are renewing a lease. Rent shares are already agreed. Earlier quiet hours and reliable parking matter most to you. You can be more flexible about guest nights and the weekend chore schedule. Agree a household plan that feels workable.",
+    "supplier": "You want to renew the shared lease. Rent shares are agreed. Guest nights and the weekend chore schedule matter most to you. You have more flexibility on quiet hours and parking.",
+    "fixed": "The lease, rooms and $1,100 monthly rent per person are fixed. Only the four household arrangements below are open.",
+    "sellerLabel": "Housemate Jordan",
+    "roleLabels": {
+      "buyer": "Housemate Alex",
+      "seller": "Housemate Jordan"
+    },
+    "batna": {
+      "buyer": "You can rent a room in another shared house with its existing rules. It is worth 0 points.",
+      "seller": "You can renew with a different housemate under the current house rules. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "quiet",
+        "label": "Quiet hours",
+        "definition": "When shared areas become quiet on weeknights.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "From 10 pm",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "From 11 pm",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "From midnight",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "guests",
+        "label": "Guest nights",
+        "definition": "Overnight guests allowed in a typical week.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "4 nights a week",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "2 nights a week",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "No overnight guests",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      },
+      {
+        "id": "parking",
+        "label": "Parking space",
+        "definition": "Use of the one off-street parking space.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Alex has the space",
+            "a": 34.0,
+            "b": -16.0
+          },
+          {
+            "label": "Alternate weeks",
+            "a": 16.0,
+            "b": 2.0
+          },
+          {
+            "label": "Jordan has the space",
+            "a": -34.0,
+            "b": 16.0
+          }
+        ]
+      },
+      {
+        "id": "chores",
+        "label": "Weekend chores",
+        "definition": "Responsibility for the shared weekend cleaning slot.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Alex handles Saturdays",
+            "a": -16.0,
+            "b": 34.0
+          },
+          {
+            "label": "Alternate Saturdays",
+            "a": 2.0,
+            "b": 16.0
+          },
+          {
+            "label": "Jordan handles Saturdays",
+            "a": 16.0,
+            "b": -34.0
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "quiet",
+        "guests"
+      ],
+      [
+        "parking",
+        "chores"
+      ]
+    ]
+  },
+  {
+    "id": "bookshop-cafe-partnership",
+    "kind": "integrative",
+    "title": "A neighbourhood partnership",
+    "service": "a bookshop and café events partnership",
+    "buyer": "Your bookshop and a nearby café want to run joint events. The financial split is agreed. Regular events, bookshop branding and dependable storage matter most to you. You have flexibility on refreshments, promotion and staffing. Agree the practical arrangements as a package.",
+    "supplier": "You want to partner with a neighbourhood bookshop. The financial split is agreed. Refreshments, promotion and staffing matter most to you. You can be more flexible about event frequency, branding and storage.",
+    "fixed": "The revenue split, six-month partnership and premises are fixed. Only the six listed arrangements can change.",
+    "sellerLabel": "Café owner",
+    "roleLabels": {
+      "buyer": "Bookshop owner",
+      "seller": "Café owner"
+    },
+    "batna": {
+      "buyer": "You can continue your own smaller reading events. It is worth 0 points.",
+      "seller": "You can keep running your usual café evenings. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "paired-main-cases-v1",
+    "issues": [
+      {
+        "id": "frequency",
+        "label": "Event frequency",
+        "definition": "The frequency of joint events during the partnership.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "Every month",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "Every 2 months",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "Once a quarter",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "refreshments",
+        "label": "Refreshment service",
+        "definition": "Who organises the event refreshment service.",
+        "pair": "pair-1",
+        "options": [
+          {
+            "label": "Bookshop organises service",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "Shared service",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "Café organises service",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "branding",
+        "label": "Event branding",
+        "definition": "The main brand featured on joint-event materials.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Bookshop-led branding",
+            "a": 20.4,
+            "b": -9.6
+          },
+          {
+            "label": "Equal branding",
+            "a": 9.6,
+            "b": 1.2
+          },
+          {
+            "label": "Café-led branding",
+            "a": -20.4,
+            "b": 9.6
+          }
+        ]
+      },
+      {
+        "id": "promotion",
+        "label": "Promotion",
+        "definition": "Who prepares and distributes the promotional materials.",
+        "pair": "pair-2",
+        "options": [
+          {
+            "label": "Bookshop leads promotion",
+            "a": -9.6,
+            "b": 20.4
+          },
+          {
+            "label": "Shared promotion",
+            "a": 1.2,
+            "b": 9.6
+          },
+          {
+            "label": "Café leads promotion",
+            "a": 9.6,
+            "b": -20.4
+          }
+        ]
+      },
+      {
+        "id": "storage",
+        "label": "Book storage",
+        "definition": "Space for event books at the café between events.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "A dedicated cupboard",
+            "a": 27.2,
+            "b": -12.8
+          },
+          {
+            "label": "A shared shelf",
+            "a": 12.8,
+            "b": 1.6
+          },
+          {
+            "label": "Bring books each time",
+            "a": -27.2,
+            "b": 12.8
+          }
+        ]
+      },
+      {
+        "id": "staffing",
+        "label": "Event staffing",
+        "definition": "Who supplies the event host and assistant.",
+        "pair": "pair-3",
+        "options": [
+          {
+            "label": "Bookshop supplies both",
+            "a": -12.8,
+            "b": 27.2
+          },
+          {
+            "label": "One person each",
+            "a": 1.6,
+            "b": 12.8
+          },
+          {
+            "label": "Café supplies both",
+            "a": 12.8,
+            "b": -27.2
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "frequency",
+        "refreshments"
+      ],
+      [
+        "branding",
+        "promotion"
+      ],
+      [
+        "storage",
+        "staffing"
+      ]
+    ]
+  },
+  {
+    "id": "recording-royalty",
+    "kind": "distributive",
+    "title": "Credit for a recording collaboration",
+    "service": "a recording royalty agreement",
+    "buyer": "Your recording is ready. The production costs and release plan are agreed. Only the artist’s share of net receipts remains open. You want a higher artist share.",
+    "supplier": "Your studio helped create a recording. Costs and release plans are agreed. Only the artist’s share of net receipts remains open. You want a lower artist share so the studio retains more.",
+    "fixed": "The financial arrangements and other commitments are agreed. Negotiate only the percentage shown below.",
+    "sellerLabel": "Studio partner",
+    "roleLabels": {
+      "buyer": "Independent artist",
+      "seller": "Studio partner"
+    },
+    "batna": {
+      "buyer": "You can release a simpler version through your existing distributor. It is worth 0 points.",
+      "seller": "You can use the studio time for other projects. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "matched-single-issue-v1",
+    "issuePairs": [],
+    "issues": [
+      {
+        "id": "share",
+        "label": "Artist share",
+        "definition": "Choose one of the listed percentage allocations. The remainder goes to the other group.",
+        "unit": "percent",
+        "options": [
+          {
+            "label": "10%",
+            "value": 10.0,
+            "a": -28,
+            "b": 100,
+            "aliases": [
+              "10 percent"
+            ]
+          },
+          {
+            "label": "20%",
+            "value": 20.0,
+            "a": 0,
+            "b": 72,
+            "aliases": [
+              "20 percent"
+            ]
+          },
+          {
+            "label": "30%",
+            "value": 30.0,
+            "a": 36,
+            "b": 36,
+            "aliases": [
+              "30 percent"
+            ]
+          },
+          {
+            "label": "40%",
+            "value": 40.0,
+            "a": 72,
+            "b": 0,
+            "aliases": [
+              "40 percent"
+            ]
+          },
+          {
+            "label": "50%",
+            "value": 50.0,
+            "a": 100,
+            "b": -28,
+            "aliases": [
+              "50 percent"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shared-studio-hours",
+    "kind": "distributive",
+    "title": "Sharing the most useful studio hours",
+    "service": "a shared rehearsal-room schedule",
+    "buyer": "Your theatre group and a music group share a rehearsal room. The rent split is agreed. Only the theatre group’s share of prime evening hours is open. You want a higher theatre share.",
+    "supplier": "Your music group shares a rehearsal room with a theatre group. Rent shares are agreed. You want a lower theatre share so music has more prime evening hours.",
+    "fixed": "The financial arrangements and other commitments are agreed. Negotiate only the percentage shown below.",
+    "sellerLabel": "Music group",
+    "roleLabels": {
+      "buyer": "Theatre group",
+      "seller": "Music group"
+    },
+    "batna": {
+      "buyer": "You can use a smaller room on its existing evening schedule. It is worth 0 points.",
+      "seller": "You can keep rehearsing at your current venue. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "matched-single-issue-v1",
+    "issuePairs": [],
+    "issues": [
+      {
+        "id": "share",
+        "label": "Theatre share",
+        "definition": "Choose one of the listed percentage allocations. The remainder goes to the other group.",
+        "unit": "percent",
+        "options": [
+          {
+            "label": "20%",
+            "value": 20.0,
+            "a": -28,
+            "b": 100,
+            "aliases": [
+              "20 percent"
+            ]
+          },
+          {
+            "label": "30%",
+            "value": 30.0,
+            "a": 0,
+            "b": 72,
+            "aliases": [
+              "30 percent"
+            ]
+          },
+          {
+            "label": "40%",
+            "value": 40.0,
+            "a": 36,
+            "b": 36,
+            "aliases": [
+              "40 percent"
+            ]
+          },
+          {
+            "label": "50%",
+            "value": 50.0,
+            "a": 72,
+            "b": 0,
+            "aliases": [
+              "50 percent"
+            ]
+          },
+          {
+            "label": "60%",
+            "value": 60.0,
+            "a": 100,
+            "b": -28,
+            "aliases": [
+              "60 percent"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "charity-work-favour",
+    "kind": "integrative",
+    "title": "A helping hand for the fundraiser",
+    "service": "a local business’s help with a charity event",
+    "buyer": "A neighbourhood business has offered practical help with your charity fundraiser. The venue and core costs are settled. Saturday timing matters most to you. You can take on more cleanup if that makes the arrangement work. You also need to settle recognition and guest places. A joint walkthrough and shared event page would make your planning easier.",
+    "supplier": "Your business wants to support a local charity fundraiser. The venue and core costs are settled. Having the charity’s volunteers handle cleanup matters most to your small team. You can be more flexible about timing. You also need to settle recognition and guest places. A joint walkthrough and shared event page would help you coordinate.",
+    "fixed": "No extra payment is available. The fundraiser and business support are agreed in principle. Choose one option on each of the six arrangements.",
+    "sellerLabel": "Business owner",
+    "roleLabels": {
+      "buyer": "Charity coordinator",
+      "seller": "Business owner"
+    },
+    "batna": {
+      "buyer": "You can run a smaller volunteer-only fundraiser under the current plan. It is worth 0 points.",
+      "seller": "You can support the charity through your usual small sponsorship instead. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "binary-mixed-interests-v1",
+    "issues": [
+      {
+        "id": "timing",
+        "label": "Event timing",
+        "definition": "The agreed session for the fundraiser.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Saturday afternoon",
+            "a": 40,
+            "b": -14
+          },
+          {
+            "label": "Weekday evening",
+            "a": -40,
+            "b": 14
+          }
+        ]
+      },
+      {
+        "id": "cleanup",
+        "label": "Cleanup responsibility",
+        "definition": "Who does the agreed final cleanup.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Charity volunteers clean up",
+            "a": -14,
+            "b": 40
+          },
+          {
+            "label": "Business staff clean up",
+            "a": 14,
+            "b": -40
+          }
+        ]
+      },
+      {
+        "id": "recognition",
+        "label": "Main recognition",
+        "definition": "The organisation named most prominently on event materials.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "Charity leads the recognition",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "Business leads the recognition",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "guest_places",
+        "label": "Reserved guest places",
+        "definition": "Who uses the larger block of reserved places.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "More places for charity guests",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "More places for business guests",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "walkthrough",
+        "label": "Joint walkthrough",
+        "definition": "A short planning visit before the event.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Include a joint walkthrough",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Use separate preparation",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      },
+      {
+        "id": "event_page",
+        "label": "Event page",
+        "definition": "How the two organisations share event information.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Use one shared event page",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Use separate event pages",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "timing",
+        "cleanup"
+      ],
+      [
+        "recognition",
+        "guest_places"
+      ],
+      [
+        "walkthrough",
+        "event_page"
+      ]
+    ]
+  },
+  {
+    "id": "colleague-work-favour",
+    "kind": "integrative",
+    "title": "Could you cover this for me?",
+    "service": "a colleague’s help with a project session",
+    "buyer": "You need a colleague to cover a project session while you attend a family commitment. Friday coverage matters most to you. You can prepare the files and materials if that helps them say yes. There is no additional pay. Settle the six practical terms, including a later favour in return. A clear checklist and quick handover would help both of you.",
+    "supplier": "A colleague has asked you to cover a project session. Having the files prepared matters most to you because your week is already busy. You have more flexibility about the session date. There is no extra pay, so settle the reciprocal cover and credit as well. A clear checklist and quick handover would make the favour easier.",
+    "fixed": "The project session is one shift and all normal work rules remain fixed. Negotiate only the six arrangements below.",
+    "sellerLabel": "Colleague covering",
+    "roleLabels": {
+      "buyer": "Colleague requesting help",
+      "seller": "Colleague covering"
+    },
+    "batna": {
+      "buyer": "You can rearrange your family plans and run the session yourself. That alternative is worth 0 points.",
+      "seller": "You can decline the favour and keep your existing work plan. That alternative is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "binary-mixed-interests-v1",
+    "issues": [
+      {
+        "id": "session",
+        "label": "Covered session",
+        "definition": "The project session the colleague will cover.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Friday evening",
+            "a": 40,
+            "b": -14
+          },
+          {
+            "label": "Saturday afternoon",
+            "a": -40,
+            "b": 14
+          }
+        ]
+      },
+      {
+        "id": "preparation",
+        "label": "Preparation work",
+        "definition": "Who prepares the session materials.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Requester prepares the materials",
+            "a": -14,
+            "b": 40
+          },
+          {
+            "label": "Covering colleague prepares",
+            "a": 14,
+            "b": -40
+          }
+        ]
+      },
+      {
+        "id": "return_cover",
+        "label": "Favour in return",
+        "definition": "The later session covered by the requester.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "A weekday session in return",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "A weekend session in return",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "credit",
+        "label": "Project recognition",
+        "definition": "How the favour is recognised in the project update.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "Shared project credit",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "Covering colleague leads credit",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "checklist",
+        "label": "Written checklist",
+        "definition": "Whether there is a short written run sheet.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Include a written checklist",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Use verbal arrangements",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      },
+      {
+        "id": "handover",
+        "label": "Quick handover",
+        "definition": "Whether you meet briefly before the session.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Include a 10-minute handover",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Work from the materials only",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "session",
+        "preparation"
+      ],
+      [
+        "return_cover",
+        "credit"
+      ],
+      [
+        "checklist",
+        "handover"
+      ]
+    ]
+  },
+  {
+    "id": "land-development",
+    "kind": "integrative",
+    "title": "A new neighbourhood takes shape",
+    "service": "a small housing development’s community arrangements",
+    "buyer": "Your company has a possible housing project with the town. The site and permitted building size are agreed. The affordable-home share matters most to your project budget. You have more room on a small public green space. Infrastructure funding and construction hours need agreement too. Resident meetings and published progress reports would help you keep the project on track.",
+    "supplier": "You are the mayor discussing a small housing project with a developer. The site and permitted building size are agreed. A public green space matters most to your community plan. You have more flexibility on the affordable-home share. Infrastructure funding and construction hours still need agreement. Resident meetings and public progress reports would help the town manage the work.",
+    "fixed": "The site, number of homes, legal standards and approval process are fixed. Both listed options on every issue are permitted within this fictional case. Only the six community arrangements are open.",
+    "sellerLabel": "Mayor",
+    "roleLabels": {
+      "buyer": "Development lead",
+      "seller": "Mayor"
+    },
+    "batna": {
+      "buyer": "You can move your team to a smaller project elsewhere. It is worth 0 points.",
+      "seller": "The town can keep the site in its current use and reopen discussions later. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "binary-mixed-interests-v1",
+    "issues": [
+      {
+        "id": "affordable",
+        "label": "Affordable-home share",
+        "definition": "Homes reserved under the agreed affordability scheme.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "10% of homes",
+            "a": 40,
+            "b": -14
+          },
+          {
+            "label": "30% of homes",
+            "a": -40,
+            "b": 14
+          }
+        ]
+      },
+      {
+        "id": "green_space",
+        "label": "Public green space",
+        "definition": "A landscaped area within the approved footprint.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Include a public green space",
+            "a": -14,
+            "b": 40
+          },
+          {
+            "label": "Use private shared space",
+            "a": 14,
+            "b": -40
+          }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure contribution",
+        "definition": "The developer’s contribution to the agreed local works.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "$150,000 contribution",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "$350,000 contribution",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "hours",
+        "label": "Construction hours",
+        "definition": "Permitted work hours under this case’s agreed rules.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "Weekdays and Saturday mornings",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "Weekdays only",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "residents",
+        "label": "Resident meetings",
+        "definition": "Whether the town and developer hold regular joint meetings.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Quarterly joint meetings",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Separate enquiry channels",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      },
+      {
+        "id": "reporting",
+        "label": "Progress reporting",
+        "definition": "How project progress is communicated.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Publish a shared progress report",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Separate private updates",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "affordable",
+        "green_space"
+      ],
+      [
+        "infrastructure",
+        "hours"
+      ],
+      [
+        "residents",
+        "reporting"
+      ]
+    ]
+  },
+  {
+    "id": "neighbour-fence",
+    "kind": "integrative",
+    "title": "A boundary you can both live with",
+    "service": "two neighbours’ fence arrangements",
+    "buyer": "You and your neighbour are replacing a boundary fence. The cost split is agreed. A taller fence matters most to you because of your dog. You have more flexibility about a shared gate. Work timing and the finish still need agreement. A joint contractor visit and maintenance plan would make the project easier.",
+    "supplier": "You and your neighbour are replacing a boundary fence. The cost split is agreed. A shared gate matters most to you because it helps with garden access. You have more room on fence height. Work timing and the finish still need agreement. A joint contractor visit and maintenance plan would help you coordinate.",
+    "fixed": "The contractor, materials budget, equal cost split and safe installation are agreed. Both fence heights are suitable for this fictional setting. Only the six arrangements below are open.",
+    "sellerLabel": "Neighbour with a garden",
+    "roleLabels": {
+      "buyer": "Neighbour with a dog",
+      "seller": "Neighbour with a garden"
+    },
+    "batna": {
+      "buyer": "You can keep the existing boundary and arrange your own temporary screen. It is worth 0 points.",
+      "seller": "You can keep the existing boundary and your current garden access. It is worth 0 points."
+    },
+    "issueSchema": "arena-issues-v1",
+    "scoringVersion": "binary-mixed-interests-v1",
+    "issues": [
+      {
+        "id": "height",
+        "label": "Fence height",
+        "definition": "The agreed height along the boundary.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "6-foot fence",
+            "a": 40,
+            "b": -14
+          },
+          {
+            "label": "4-foot fence",
+            "a": -40,
+            "b": 14
+          }
+        ]
+      },
+      {
+        "id": "gate",
+        "label": "Shared gate",
+        "definition": "Whether the replacement includes a jointly maintained access gate.",
+        "pair": "pair-1",
+        "relationship": "tradeoff",
+        "options": [
+          {
+            "label": "Include a shared gate",
+            "a": -14,
+            "b": 40
+          },
+          {
+            "label": "No shared gate",
+            "a": 14,
+            "b": -40
+          }
+        ]
+      },
+      {
+        "id": "workday",
+        "label": "Installation day",
+        "definition": "The day the contractor carries out the work.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "Saturday installation",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "Sunday installation",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "label": "Fence finish",
+        "definition": "The visible finish on both sides.",
+        "pair": "pair-2",
+        "relationship": "distributive",
+        "options": [
+          {
+            "label": "Natural wood finish",
+            "a": 18,
+            "b": -18
+          },
+          {
+            "label": "Grey finish",
+            "a": -18,
+            "b": 18
+          }
+        ]
+      },
+      {
+        "id": "visit",
+        "label": "Contractor visit",
+        "definition": "Whether you meet the contractor together before work.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Attend a joint contractor visit",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Arrange separate calls",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      },
+      {
+        "id": "maintenance",
+        "label": "Maintenance plan",
+        "definition": "Whether you agree a simple upkeep calendar.",
+        "pair": "pair-3",
+        "relationship": "compatible",
+        "options": [
+          {
+            "label": "Use a shared maintenance plan",
+            "a": 5,
+            "b": 5
+          },
+          {
+            "label": "Arrange upkeep separately",
+            "a": -5,
+            "b": -5
+          }
+        ]
+      }
+    ],
+    "issuePairs": [
+      [
+        "height",
+        "gate"
+      ],
+      [
+        "workday",
+        "finish"
+      ],
+      [
+        "visit",
+        "maintenance"
+      ]
+    ]
   }
 ]

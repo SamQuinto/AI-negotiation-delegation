@@ -2,6 +2,138 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v33",
+      "status": "Implemented; final publication recorded separately",
+      "updatedAtUtc": "2026-11-11T11:16:40.866870+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "Clearer help, richer cases and three practical improvements",
+      "summary": "A standardized opening five, varied everyday negotiations, concise scoped help, a focused performance review and mobile controls that stay reachable.",
+      "changes": {
+        "Participant experience": [
+          "Responsive chat and six-issue offers, inline mobile Neggy, editable public-ready drafts and explicit review of ambiguous proposals.",
+          "The feedback review now leads with three priorities, numbered steps and saved evidence. Smaller ideas and supporting graphs open when needed.",
+          "The two leading dashboard boxes are Top 3 improvements and AI-use tips, above historical performance.",
+          "Outdated saved reviews are flagged, with a free method-update replacement. The normal five-round refresh count remains explicit. Red review-date markers are reconstructed on earlier score histories."
+        ],
+        "Research mechanics": [
+          "Fixed opening case IDs saved per treatment; Mixed default, then random allowed-pool return rounds.",
+          "Ten active four-to-six-issue integrative cases, plus twelve distributive cases; exact finite ZOPA and score calibration retained privately."
+        ],
+        "AI architecture": [
+          "Three scope-based suggestions, preflight/output/execution gates, message-only assessments and fifty-word private advice fallback.",
+          "Collaborative/balanced/firm own-value negotiation policies; safeguards prevent ideal-package resets and extra concessions for repetition."
+        ],
+        "Data and audit": [
+          "AI-copy versus official AI-sent offer provenance, exact issue terms, case diagnostics, review planning and correction events.",
+          "Five-category QA register, comprehensive checklist, case audit and methods addendum."
+        ]
+      },
+      "validation": [
+        "The full regression suite and TypeScript pass; the final test count is retained in Arena_v33_All_Tests.log and the packaging receipt.",
+        "One synthetic five-round HTTP sequence passed all 55 operations, scored 180 total and 36 average, with zero model calls.",
+        "Targeted live helper/counterpart/review probes retained raw results, failures and corrections. The final feedback sample produced three priorities and four smaller ideas in one call.",
+        "Responsive visual and interaction checks are recorded in Arena_v33_UX_QA.json with explicit verification limits."
+      ],
+      "limits": [
+        "Equal payoff maxima do not establish equal task difficulty or bargaining-strength reliability.",
+        "Fixed case order ties case and task type to position in the mixed sequence. Self-selected delegation is observational.",
+        "No new live concurrent-user capacity claim; most checks ran locally. Paid recruitment still needs the approved consent/payment configuration."
+      ],
+      "qualityReview": {
+        "UX": [
+          {
+            "issue": "Feedback steps below the fold",
+            "fix": "Lead with three numbered action cards, shorten the introduction, widen desktop use and collapse longer evidence.",
+            "checked": "Desktop 1365 and phone 320/390 screenshots; graph links and close/return tested."
+          },
+          {
+            "issue": "Floating helper covered controls",
+            "fix": "Use inline Ask Neggy or Guide Neggy on compact screens; preserve the desktop companion.",
+            "checked": "Mobile helper opened, dismissed and copied-draft focus checked."
+          }
+        ],
+        "Visual": [
+          {
+            "issue": "Header navigation covered the clock",
+            "fix": "Hide redundant header navigation at intermediate desktop widths and move the session clock to its own tablet row.",
+            "checked": "Desktop header and tablet layout inspected; Home, Admin and scores remain available."
+          },
+          {
+            "issue": "Close button disappeared",
+            "fix": "Restore a visible bordered close button for both current and earlier report formats.",
+            "checked": "Visible 44-pixel close control; Escape restores focus; keyboard cycle includes disclosures."
+          },
+          {
+            "issue": "Small-phone introduction too tall",
+            "fix": "Give the mobile title its own row and use the short heading Your top 3 improvements.",
+            "checked": "320-pixel reflow and 390-pixel final screenshot."
+          },
+          {
+            "issue": "Mobile score label overflow",
+            "fix": "Use a separate full-width signed-score row and the short empty state Choose terms.",
+            "checked": "Six-issue mobile offer selected and submitted at +36 points."
+          },
+          {
+            "issue": "Review timing absent from the score story",
+            "fix": "Reconstruct dated red markers from saved review coverage and creation metadata without changing old scores.",
+            "checked": "Two saved review dates yielded grouped markers in dashboard and report graphs; old-data count fallback tested."
+          }
+        ],
+        "Content": [
+          {
+            "issue": "Irrelevant fee and buyer wording",
+            "fix": "Use actual displayed role names, issue-specific preparation and categorical introductions. Use the displayed role in the round-entry popup too.",
+            "checked": "Own-role case audit; actual job preparation and development UI read."
+          },
+          {
+            "issue": "Advice too long and generic",
+            "fix": "Use fifty-word guard with concise own-value fallback and a separate public-ready draft.",
+            "checked": "Initial failure retained; corrected assessment sample was 36 words; final structured review returned three priorities and four smaller ideas."
+          }
+        ],
+        "Technical": [
+          {
+            "issue": "Scope could be bypassed through custom wording",
+            "fix": "Classify the requested function, enforce selected scope before generation and on output/execution.",
+            "checked": "Mobile excluded drafting request received a warm private refusal; no model call was needed."
+          },
+          {
+            "issue": "Local review probe overwrote an earlier raw file",
+            "fix": "Recover both saved validated reports and response-ID usage from the synthetic local store; preserve future probe runs under unique tags.",
+            "checked": "Both response IDs are included in the deduplicated cost ledger. The first full raw review envelope is not available; its saved report and metered usage are retained."
+          },
+          {
+            "issue": "Feedback state could outlive a profile change",
+            "fix": "Key feedback by participant identity and clear the lifted summary on identity changes.",
+            "checked": "Type and regression checks; each browser fixture uses its own server-authenticated profile scope."
+          }
+        ],
+        "Mechanical": [
+          {
+            "issue": "Friendlier text still made extreme offers",
+            "fix": "Use own-value style bands, deterministic collaborative acceptance and a bounded counteroffer guard.",
+            "checked": "Corrected live cooperative acceptance made no extra call; firm counteroffer scored 36 for its own side. Repetition regressions pass."
+          },
+          {
+            "issue": "Assessment produced an unrequested offer",
+            "fix": "Make assessment message-only unless a proposal is explicitly requested, with an execution safeguard.",
+            "checked": "Final live narrow assessment returned message with null package and no public draft."
+          },
+          {
+            "issue": "Tentative/partial offers needed clear handling",
+            "fix": "Score complete suggestions; require Yes/No confirmation for an inferred complete candidate; keep incomplete terms editable.",
+            "checked": "Mobile What do you think of 10% of homes? showed exact six-term candidate. No kept it as conversation and elicited a relevant response."
+          },
+          {
+            "issue": "Old reviews blocked improved feedback",
+            "fix": "Fingerprint the method/prompt/model, flag old reviews and unlock one replacement. Resume the normal gate after a current review.",
+            "checked": "Local API stale/current checks: zero extra rounds for replacement, then five remaining. No additional model calls."
+          }
+        ]
+      }
+    },
+    {
       "release": "v32.1",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-11T09:34:14.580221+00:00",
