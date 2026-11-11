@@ -32,10 +32,14 @@
           "One sentence identifies the player’s role, fee direction and named partner. End negotiation sits on the right.",
           "Own proposals and own point strips share orange styling; the other side uses blue. Positive offer values include a plus sign.",
           "Steering options are visible before the first instruction. A selected approach appears in private history with Neggy’s acknowledgement."
+        ],
+        "Release checks": [
+          "The bounded leaderboard refresh filters out load-test accounts before choosing its next page. It refreshes derived standings without rewriting negotiations or paid awards.",
+          "Admin password sessions are verified against the configured researcher on both hosts. A private-host bypass alone does not grant researcher access."
         ]
       },
       "validation": [
-        "302 application tests and TypeScript passed before the final packaging check.",
+        "304 application tests and TypeScript passed before the final release build.",
         "A complete local browser tutorial included a structured offer, ordinary chat, the mistyped offer I can offerr 1.35k, private advice and progression into scored play.",
         "Browser checks covered dragging without opening, position persistence after reload, bounds at 390 pixels, the mobile window, a 1920-pixel workspace, enlargement, steering acknowledgement and no-helper mode.",
         "Four small real-model voice probes were retained, including the initial preparation reply that was too long. After revision, preparation replies were 64 and 63 words. These checks do not establish general model reliability."
