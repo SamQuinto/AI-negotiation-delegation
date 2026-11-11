@@ -87,3 +87,11 @@ Before paid launch, add approved ethics/retention/withdrawal details, actual stu
 and completion routes and prize closing time. Pilot duration/comprehension and
 validate quality before recruiting at scale. The historical 100-client synthetic
 load test did not exercise 100 simultaneous live AI calls.
+
+V31 update (11 November 2026)
+Live coaching includes preparation and two process groups. Offer-sending and final-deal authority are separate explicit choices. Negotiators choose an offer checkpoint of 1, 2, 3 or 5 sent offers, or continuous until paused. The app enforces permissions and task deadlines in code.
+The first detailed review requires five scored negotiations; each update requires five new negotiations. Preparation is conversational. Numerical score claims always come from deterministic calculations.
+All shared profiles appear on one social leaderboard. Financial study prize ranks remain separate. Historical pilot score scales remain as earned and must be filtered for research comparisons.
+Tutorial skip has a server-enforced six-second confirmation and is permanent for that profile. Actual completed lessons and skipped exposure remain distinguishable.
+The private admin Mechanics guide and v31 update log document current mechanics. Raw prompt files remain editable here; publish them through the admin prompt editor or importer to change runtime settings.
+

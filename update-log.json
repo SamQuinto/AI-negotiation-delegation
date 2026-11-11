@@ -2,6 +2,61 @@
   "version": "arena-update-log-v1",
   "entries": [
     {
+      "release": "v31",
+      "status": "Implemented",
+      "updatedAtUtc": "2026-11-11T08:06:44.870897+00:00",
+      "publishedAtUtc": null,
+      "retrospective": false,
+      "title": "A shared Arena and clearer control",
+      "summary": "We reviewed the November 10 chats, repaired missed replies and a changed-price acceptance error, and made AI authority and check-ins explicit.",
+      "changes": {
+        "One Arena leaderboard": [
+          "Shared profiles appear together across task types, prompt versions, backends and historical scoring scales. New profiles appear as New until they finish a scored negotiation.",
+          "Each profile has one entry. Average points rank first; total points break ties. Opt-outs are respected. Financial study ranks remain separate.",
+          "A bounded admin refresh rebuilds derived entries from saved histories. Negotiations, original points and paid awards are never rewritten."
+        ],
+        "Reliable conversation": [
+          "Reject, decline a proposed final deal and reopen an accepted deal now receive a counterpart response.",
+          "The observed “Ok 1100” error is fixed: a changed amount is a counteroffer, not acceptance of a different standing price.",
+          "Starting point and at this point no longer trigger the private-score guard. Actual point disclosures remain guarded.",
+          "An unsupported claim about an earlier offer is corrected and logged. The counterpart prompt now explicitly separates each party’s offer history."
+        ],
+        "Scope, authority and check-ins": [
+          "Live coaching includes preparation and two concise scope groups. Scope and offer-sending choices begin unanswered.",
+          "Negotiator offer authority and final-deal authority use separate, explicit two-sided controls. Start stays disabled until every required choice is made.",
+          "Players choose a pause after 1, 2, 3 or 5 sent AI offers, or Until I pause. Questions do not consume a new offer checkpoint. Approvals, Pause and deadlines still apply.",
+          "The contract, cadence unit, change reason and subsequent continuation decisions are logged. Old active rounds retain their earlier two-action policy."
+        ],
+        "Preparation and detailed feedback": [
+          "Preparation opens with a role-specific question without a model call. Follow-up help is conversational, concise and saved privately.",
+          "The first detailed performance review requires five scored negotiations. Each update requires five new negotiations. Saved reviews remain available.",
+          "Reviews use themed action cards, brief examples and verified score facts. A completed but invalid review can receive one audited validation repair; network errors do not trigger hidden retries."
+        ],
+        "Tutorial and navigation": [
+          "Skip tutorial is prominent before and during the warm-up. Each confirmation starts a visible six-second countdown enforced on the server.",
+          "A skipped tutorial is permanently unavailable on that profile. Skipped exposure and genuinely completed lessons remain distinguishable.",
+          "Named partner, role and fee direction are visible. Round, preparation, chat, final-decision and result transitions have short dialogs.",
+          "Waiting at a new-round entry dialog does not consume the negotiation timer; the Prolific visit deadline continues."
+        ],
+        "Layout and profiles": [
+          "The negotiation workspace fills wide displays. Role text and scoring references are larger; the conversation and helper use defined panels.",
+          "Steering presets collapse so custom instructions stay visible. Mobile score-header overflow is repaired.",
+          "The saved-profile picker supports search and more remembered profiles. Admin sign-in no longer changes the participant persona on public routes.",
+          "New unpaid return rounds receive current prompt improvements while preserving their inherited economic rules. Active study visits keep their frozen prompt policy."
+        ]
+      },
+      "validation": [
+        "Fresh application regression suite and TypeScript checks are required before packaging.",
+        "Local browser walkthroughs cover a full tutorial, profile switching, review gating, explicit authority, offer checkpoints and the six-second skip.",
+        "Targeted live Luna checks and their raw validation results are retained in the v31 release evidence."
+      ],
+      "limits": [
+        "This is targeted release validation, not a general model reliability estimate.",
+        "Historical pilot point scales are kept as earned on the shared social board. Current calibrated study analyses must filter by scoring version.",
+        "Paid recruitment remains pending the protocol and study-specific launch configuration."
+      ]
+    },
+    {
       "release": "v30.1",
       "status": "Implemented",
       "updatedAtUtc": "2026-11-08T23:00:45+00:00",
